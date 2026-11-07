@@ -2,7 +2,7 @@
 
 Run [norns](https://github.com/monome/norns) inside [Machinista](https://github.com/photogeen/machinista) on a Raspberry Pi 4 or 5, with a Maschine MK3 as its screen, keys and encoders.
 
-> **Unofficial.** This is a community add-on. It is not made or endorsed by the Machinista project, monome or Native Instruments. It changes a few of Machinista's files, so a Machinista update can undo it (re-run `./install.sh --repatch`).
+> **Unofficial.** This is a community add-on. It is not made or endorsed by the Machinista project, monome or Native Instruments. It changes a few of Machinista's files, so a Machinista update can undo it. After an update, run `./install.sh --repatch` and let it restart Machinista: the changes only take effect after a restart.
 
 ## What you get
 
@@ -19,7 +19,7 @@ Run [norns](https://github.com/monome/norns) inside [Machinista](https://github.
 
 ## Requirements
 
-- Raspberry Pi 4 or 5 running Machinista (tested with 0.1.0-beta.15, Debian 13).
+- Raspberry Pi 4 or 5 running Machinista (tested with 0.1.0-beta.17, Debian 13).
 - A Maschine MK3. Give it its own power supply if you also plug in a grid.
 - About 2 GB free space. An internet connection during the install.
 - Pi 5: use the official 27 W power supply. Without it the Pi limits USB current, and the MK3 and grid can brown out.
