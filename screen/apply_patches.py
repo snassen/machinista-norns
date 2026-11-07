@@ -116,10 +116,10 @@ def machinista():
                  'norns_input')
     replace_once(root / 'mk3_surface.py', "        if self.app.page=='OPTIONS':keys=keys[:2]+('GRID',)+keys[3:]\n        return keys\n",
                  "        if self.app.page=='OPTIONS':keys=keys[:2]+('GRID',)+keys[3:]\n"
-                 "        from app.norns_input import active\n"
-                 "        if active(self.app):keys=tuple(keys[:4])+('K1','K2','K3')+tuple(keys[7:])\n"
+                 "        from app.norns_input import softkeys as norns_keys\n"
+                 "        keys=norns_keys(self.app,keys)\n"
                  "        return keys\n",
-                 "active(self.app)")
+                 "norns_input import softkeys")
     replace_once(root / 'mk3_session.py', "    def display_settings(self):\n",
                  "    def rotate_raw(self,index,delta):\n"
                  "        from app.norns_input import bridge\n"
@@ -127,14 +127,17 @@ def machinista():
                  "    def display_settings(self):\n",
                  'norns_input')
     replace_once(root / 'mk2_display.py', "        if p=='PLUGIN' and selected:\n",
-                 f"        if p=='PLUGIN' and selected and selected.get('uri')=='{URI}':state['norns_screen']=True\n        if p=='PLUGIN' and selected:\n",
-                 'norns_screen')
+                 f"        if p=='PLUGIN' and selected and selected.get('uri')=='{URI}':\n"
+                 "            from app.norns_input import decorate\n"
+                 "            decorate(state,a)\n"
+                 "        if p=='PLUGIN' and selected:\n",
+                 'norns_input import decorate')
     replace_once(root / 'mk3_display.py', "        return self.chain_animation(images,state)\n",
                  "        images=self.chain_animation(images,state)\n"
                  "        if state.get('norns_screen'):\n"
                  "            from app.norns_screen import overlay\n"
-                 "            images=overlay(images);self.needs_refresh=True\n"
+                 "            images=overlay(images,state);self.needs_refresh=True\n"
                  "        return images\n",
-                 'norns_screen')
+                 'overlay(images,state)')
 
 {'norns': norns, 'machinista': machinista}[sys.argv[1]]()

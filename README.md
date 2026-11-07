@@ -9,6 +9,8 @@ Run [norns](https://github.com/monome/norns) inside [Machinista](https://github.
 - **Audio:** a *Norns Bridge* instrument plug-in for Machinista. Load it on a Sound, and norns plays through that Sound's channel, effects and mixer. The plug-in's sidechain input feeds audio into norns, for example the MK3's inputs (sidechain source *EXT STEREO*) or another group or sound.
 - **Screen:** while the Norns Bridge plug-in page is open, the right MK3 display shows the norns screen (128×64, scaled 3×).
 - **Controls:** on that page, display buttons 5–7 are norns K1–K3 and encoders 5–7 are E1–E3. Hold SHIFT to reach Machinista's own functions.
+- **Parameters:** encoders 1–4 change the running script's PARAMS, four at a time, with names, values and bars on the left display. The page buttons step through them, section by section, the same order as the norns PARAMS menu (the script's own first, then levels, reverb, clock...).
+- **Script and preset loading:** one page left of the first parameter page is LOAD. Encoder 1 picks a script, encoder 2 one of its saved PSETs, and display button 8 loads both. PSETs stay in norns' own format and folders.
 - **Script library:** the norns SELECT menu is grouped into folders (loopers, samplers, effects, sequencers, generative, instruments, utilities) with a scrolling description. E3 adds a favorite.
 - **Menus** trimmed for a hosted norns: no Wi-Fi, update, password or sleep. RESTART restarts only norns.
 - **Shared samples:** norns sees Machinista's samples in `audio/machinista`. norns tape recordings land in Machinista's `norns-tape` folder.
@@ -78,6 +80,7 @@ Everything lives in `~/norns-stack` (sources, builds, a private prefix with libm
 | `library/` | the folder chooser (`select.lua`), library generator, script pack list, batch tester |
 | `patches/` | build fixes for norns on Debian 13 / 64-bit |
 | `bin/` | start, stop, restart and REPL scripts |
+| `norns-mod/` | the `machinista` norns mod that answers the MK3's parameter and load requests |
 | `tools/` | small JACK helpers |
 
 ## License

@@ -262,6 +262,25 @@ if [ $PACK = 1 ]; then
   [ $MI = 1 ] || [ ! -d ~/dust/code/terrarium ] || note "terrarium needs --mi-ugens to make sound"
 fi
 
+step "Installing the machinista mod (MK3 parameter pages and script loading)"
+rm -rf ~/dust/code/machinista
+cp -r "$REPO/norns-mod/machinista" ~/dust/code/machinista
+MODS=~/dust/data/system.mods
+if [ ! -f "$MODS" ]; then
+  printf 'return {\n-- Table: {1}\n{\n   "machinista",\n},\n}\n' > "$MODS"
+elif ! grep -q '"machinista"' "$MODS"; then
+  # Add it to the first table, the list norns reads.
+  python3 - "$MODS" <<'PY'
+import sys
+path = sys.argv[1]
+text = open(path).read()
+marker = '-- Table: {1}\n{\n'
+if marker in text:
+    open(path, 'w').write(text.replace(marker, marker + '   "machinista",\n', 1))
+PY
+fi
+grep -q '"machinista"' "$MODS" && note "enabled (takes effect the next time norns starts)" || note "could not enable it: turn it on in SYSTEM > MODS"
+
 step "Writing the script library folders"
 if [ -f ~/dust/data/script-library.lua ]; then
   note "~/dust/data/script-library.lua already exists, kept (delete it to regenerate)"
