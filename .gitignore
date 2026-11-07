@@ -1,0 +1,10 @@
+*.o
+*.so
+*.zip
+norns_bridged
+bridge_stat
+bridge_test
+bridge_probe
+guard_test
+__pycache__/
+.DS_Store

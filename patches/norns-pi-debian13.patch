@@ -1,0 +1,64 @@
+diff --git a/crone/src/BufDiskWorker.h b/crone/src/BufDiskWorker.h
+index 2e237b06..5b738b5f 100644
+--- a/crone/src/BufDiskWorker.h
++++ b/crone/src/BufDiskWorker.h
+@@ -15,6 +15,7 @@
+ #ifndef CRONE_BUFMANAGER_H
+ #define CRONE_BUFMANAGER_H
+ 
++#include <string>
+ #include <atomic>
+ #include <condition_variable>
+ #include <functional>
+diff --git a/maiden-repl/src/page.c b/maiden-repl/src/page.c
+index 277a3940..dcd13ea1 100644
+--- a/maiden-repl/src/page.c
++++ b/maiden-repl/src/page.c
+@@ -53,7 +53,7 @@ void page_free(struct page *p) {
+ }
+ 
+ int page_print(struct page *p, const char *txt) {
+-    wprintw(p->pad, txt);
++    wprintw(p->pad, "%s", txt);
+     return page_scroll_bottom(p);
+ }
+ 
+diff --git a/maiden-repl/src/pages.c b/maiden-repl/src/pages.c
+index e50f5301..d25d573b 100644
+--- a/maiden-repl/src/pages.c
++++ b/maiden-repl/src/pages.c
+@@ -22,7 +22,7 @@ void page_select(int i) {
+     page_cur = pages[i];
+     top_panel(page_cur->panel);
+     werase(win_stat);
+-    mvwprintw(win_stat, 0, 0, page_title[i]);
++    mvwprintw(win_stat, 0, 0, "%s", page_title[i]);
+     wnoutrefresh(win_stat);
+     page_refresh(page_cur);
+     doupdate();
+diff --git a/matron/src/event_types.h b/matron/src/event_types.h
+index 10b8f5e7..caef6762 100644
+--- a/matron/src/event_types.h
++++ b/matron/src/event_types.h
+@@ -5,7 +5,7 @@
+ #include <sys/types.h>
+ 
+ // lo_message is opaque here. files using it include oracle.h for the full definition.
+-typedef void *lo_message;
++typedef struct lo_message_ *lo_message;
+ 
+ // NOTE: new event types *must* be added to the end of the enum in the order
+ // maintain ABI compatibility with compiled modules which interact with the
+diff --git a/norns/wscript b/norns/wscript
+index bd98977a..243e266d 100644
+--- a/norns/wscript
++++ b/norns/wscript
+@@ -143,7 +143,7 @@ def build(bld):
+     norns_includes = ['.'] + matron_includes + crone_includes
+     norns_use = matron_use + crone_use
+     norns_libs = norns_libs + matron_libs + crone_libs
+-    norns_cxxflags = ['-O3', '-Wall', '-mfpu=neon']
++    norns_cxxflags = ['-O3', '-Wall']
+     norns_ldflags = ['-Wl,-export-dynamic']
+ 
+     if bld.env.NORNS_PROFILE:

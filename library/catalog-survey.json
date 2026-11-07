@@ -1,0 +1,7749 @@
+[
+{
+"name": "_awed",
+"url": "https://github.com/melocoi/_awed",
+"tags": [
+"drone",
+"harmonics",
+"engine",
+"grid"
+],
+"description": "harmonic series aggregator",
+"truncated": false,
+"bytes": 79502,
+"files": 10,
+"sc": [
+"lib/Sawed.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"_awed.lua"
+]
+},
+{
+"name": "taweeet",
+"url": "https://github.com/skibu/taweeet",
+"tags": [
+"art",
+"birds"
+],
+"description": "Bird song, and lots of it. And pics, too.",
+"truncated": false,
+"bytes": 82348,
+"files": 16,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"taweeet.lua"
+]
+},
+{
+"name": "32-harmony",
+"url": "https://github.com/rehresman/32-harmony",
+"tags": [
+"sequencer",
+"synth",
+"generative",
+"noise"
+],
+"description": "a 32-voice harmony generator",
+"truncated": false,
+"bytes": 590934,
+"files": 5,
+"sc": [
+"lib/Engine_32Harmony.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"32-harmony.lua"
+]
+},
+{
+"name": "3d",
+"url": "https://github.com/p3r7/3d",
+"tags": [
+"art"
+],
+"description": "pure Lua 3d lib for norns",
+"truncated": false,
+"bytes": 444025,
+"files": 33,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"circle.lua",
+"glitchpercube.lua",
+"hypercube.lua",
+"obj_fish.lua",
+"obj_octaglitch.lua",
+"obj_octagon.lua",
+"obj_teapot.lua"
+]
+},
+{
+"name": "4-big-knobs",
+"url": "https://github.com/21echoes/4-big-knobs",
+"tags": [
+"utility",
+"arc",
+"crow",
+"midi"
+],
+"description": "send control voltages out of crow",
+"truncated": false,
+"bytes": 78577,
+"files": 9,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"4-big-knobs.lua"
+]
+},
+{
+"name": "abacus",
+"url": "https://github.com/schollz/abacus",
+"tags": [
+"sequencer"
+],
+"description": "sequence rows of beats with samples",
+"truncated": false,
+"bytes": 661793,
+"files": 7,
+"sc": [],
+"binaries": [],
+"audio": 1,
+"audio_bytes": 615028,
+"submodules": false,
+"lua_top": [
+"abacus.lua"
+]
+},
+{
+"name": "acid-test",
+"url": "https://github.com/schollz/acid-test",
+"tags": [
+"generative",
+"midi",
+"crow"
+],
+"description": "generative acid basslines.",
+"truncated": false,
+"bytes": 516759,
+"files": 23,
+"sc": [
+"lib/Engine_AcidTest.sc"
+],
+"binaries": [
+"lib/cjson.so"
+],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"acid-test.lua"
+]
+},
+{
+"name": "ack",
+"url": "https://github.com/antonhornquist/ack",
+"tags": [],
+"description": "sample player engine",
+"truncated": false,
+"bytes": 152579,
+"files": 10,
+"sc": [
+"lib/Engine_Ack.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": []
+},
+{
+"name": "acrostic",
+"url": "https://github.com/schollz/acrostic",
+"tags": [
+"sequencer",
+"sampler",
+"crow",
+"grid"
+],
+"description": "chord sequencer and sampler",
+"truncated": false,
+"bytes": 143591,
+"files": 15,
+"sc": [
+"lib/Engine_Acrostic.sc"
+],
+"binaries": [
+"lib/cjson.so"
+],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"acrostic.lua"
+]
+},
+{
+"name": "amen",
+"url": "https://github.com/schollz/amen",
+"tags": [
+"drum",
+"sampler",
+"looper"
+],
+"description": "sampler and mangler of loops",
+"truncated": false,
+"bytes": 11098638,
+"files": 10,
+"sc": [
+"lib/Engine_Amen.sc"
+],
+"binaries": [],
+"audio": 2,
+"audio_bytes": 11021080,
+"submodules": false,
+"lua_top": [
+"amen.lua"
+]
+},
+{
+"name": "amenbreak",
+"url": "https://github.com/schollz/amenbreak",
+"tags": [
+"drum",
+"sampler"
+],
+"description": "this is a dedicated amen break script with 2 knobs - amen and break.",
+"truncated": false,
+"bytes": 7550154,
+"files": 125,
+"sc": [
+"lib/Engine_AmenBreak1.sc"
+],
+"binaries": [
+"lib/cjson.so"
+],
+"audio": 96,
+"audio_bytes": 2289738,
+"submodules": false,
+"lua_top": [
+"amenbreak.lua"
+]
+},
+{
+"name": "animator",
+"url": "https://github.com/crimclark/animator",
+"tags": [
+"sequencer",
+"crow",
+"grid",
+"midi"
+],
+"description": "2D Polyphonic step sequencer for grids",
+"truncated": false,
+"bytes": 503043,
+"files": 15,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"animator.lua"
+]
+},
+{
+"name": "arcify",
+"url": "https://github.com/mimetaur/arcify",
+"tags": [
+"lib"
+],
+"description": "map arc encoders to up to four parameters (eight with a shift key)",
+"truncated": false,
+"bytes": 14302,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"test.lua"
+]
+},
+{
+"name": "arcologies",
+"url": "https://github.com/northern-information/arcologies",
+"tags": [
+"generative",
+"sampler",
+"sequencer",
+"jf",
+"grid",
+"midi",
+"arc",
+"crow"
+],
+"description": "an interactive environment for designing 2d sound arcologies with norns and grid",
+"truncated": false,
+"bytes": 316627,
+"files": 67,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"arcologies.lua"
+]
+},
+{
+"name": "arp_index",
+"url": "https://github.com/markwheeler/arp_index",
+"tags": [
+"sequencer",
+"grid"
+],
+"description": "check stocks and make music",
+"truncated": false,
+"bytes": 54576,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"arp_index.lua"
+]
+},
+{
+"name": "ash",
+"url": "https://github.com/tehn/ash",
+"tags": [
+"arc",
+"grid",
+"looper",
+"drum",
+"synth"
+],
+"description": "a small collection",
+"truncated": false,
+"bytes": 24085,
+"files": 7,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"angl.lua",
+"earthsea.lua",
+"orbit.lua",
+"playfair.lua"
+]
+},
+{
+"name": "asterion",
+"url": "https://github.com/cachilders/asterion",
+"tags": [
+"drone",
+"engine",
+"hid",
+"sequencer",
+"synth"
+],
+"description": "adventure game as drone sequencer",
+"truncated": false,
+"bytes": 205679,
+"files": 59,
+"sc": [
+"lib/engine/Engine_Asterion.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"asterion.lua"
+]
+},
+{
+"name": "automs70",
+"url": "https://github.com/pangrus/automs70",
+"tags": [
+"utility",
+"midi"
+],
+"description": "automate MS-70 CDR parameters",
+"truncated": false,
+"bytes": 27417,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"automs70.lua"
+]
+},
+{
+"name": "avonlea",
+"url": "https://github.com/kurogedelic/avonlea",
+"tags": [
+"norns",
+"generative",
+"art",
+"drone"
+],
+"description": "the Lake of Shining Waters at night",
+"truncated": false,
+"bytes": 88858,
+"files": 12,
+"sc": [
+"lib/Engine_Avonlea.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"avonlea.lua"
+]
+},
+{
+"name": "awake",
+"url": "https://github.com/tehn/awake",
+"tags": [
+"sequencer",
+"grid"
+],
+"description": "time changes",
+"truncated": false,
+"bytes": 19539,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"awake.lua"
+]
+},
+{
+"name": "awake-passersby",
+"url": "https://github.com/nattog/awake-passersby",
+"tags": [
+"sequencer",
+"grid"
+],
+"description": "time drifting",
+"truncated": false,
+"bytes": 22071,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"awake-passersby.lua"
+]
+},
+{
+"name": "awake-rings",
+"url": "https://github.com/GoneCaving/awake-rings",
+"tags": [
+"sequencer",
+"grid"
+],
+"description": "chimes past",
+"truncated": false,
+"bytes": 23783,
+"files": 6,
+"sc": [
+"lib/Engine_KarplusRings.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"awake-rings.lua"
+]
+},
+{
+"name": "bakeneko",
+"url": "https://github.com/northern-information/bakeneko",
+"tags": [
+"drum",
+"sequencer",
+"eduscript"
+],
+"description": "a haunted drummer companion",
+"truncated": false,
+"bytes": 47701,
+"files": 4,
+"sc": [
+"lib/Engine_Goldeneye_ef20e1.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"bakeneko.lua"
+]
+},
+{
+"name": "barcode",
+"url": "https://github.com/schollz/barcode",
+"tags": [
+"looper"
+],
+"description": "loops sounds into six lfo-modulated voices",
+"truncated": false,
+"bytes": 27611,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"barcode.lua"
+]
+},
+{
+"name": "barycenter",
+"url": "https://github.com/echophon/barycenter",
+"tags": [
+"sequencer"
+],
+"description": "orbital motion sequencing",
+"truncated": false,
+"bytes": 13216,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"barycenter.lua"
+]
+},
+{
+"name": "b-b-b-b-beat",
+"url": "https://github.com/frederickk/b-b-b-b-beat",
+"tags": [
+"audio_fx"
+],
+"description": "Beat repeater with some glitch",
+"truncated": false,
+"bytes": 471222,
+"files": 31,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"b-b-b-b-beat.lua"
+]
+},
+{
+"name": "beets",
+"url": "https://github.com/mattb/beets",
+"tags": [
+"sequencer",
+"drum",
+"grid"
+],
+"description": "drum loop re-sequencer",
+"truncated": false,
+"bytes": 15842602,
+"files": 95,
+"sc": [],
+"binaries": [],
+"audio": 10,
+"audio_bytes": 1431608,
+"submodules": false,
+"lua_top": [
+"beets.lua"
+]
+},
+{
+"name": "benjolis",
+"url": "https://github.com/scazan/benjolis",
+"tags": [
+"synth"
+],
+"description": "chaotic synth",
+"truncated": false,
+"bytes": 17563,
+"files": 3,
+"sc": [
+"lib/Engine_Benjolis.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"benjolis.lua"
+]
+},
+{
+"name": "bistro",
+"url": "https://github.com/cfdrake/bistro",
+"tags": [
+"sequencer",
+"grid"
+],
+"description": "a presscafe remake for Norns",
+"truncated": false,
+"bytes": 10717,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"bistro.lua"
+]
+},
+{
+"name": "bitters",
+"url": "https://github.com/ryleelyman/bitters",
+"tags": [
+"synth",
+"midi"
+],
+"description": "lo-fi FM capable mono/poly",
+"truncated": false,
+"bytes": 115737,
+"files": 12,
+"sc": [
+"ignore/PulsePTR.sc",
+"ignore/TrianglePTR.sc",
+"lib/Engine_Bitters.sc"
+],
+"binaries": [
+"ignore/PulsePTR_scsynth.so",
+"ignore/TrianglePTR_scsynth.so"
+],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"bitters.lua"
+]
+},
+{
+"name": "blippoo",
+"url": "https://github.com/cfdrake/blippoo",
+"tags": [
+"synth"
+],
+"description": "blippoo box clone",
+"truncated": false,
+"bytes": 13307,
+"files": 5,
+"sc": [
+"blippoo.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"blippoo.lua"
+]
+},
+{
+"name": "blndr",
+"url": "https://github.com/schollz/blndr",
+"tags": [
+"audio_fx"
+],
+"description": "a quantized delay with time bending effects",
+"truncated": false,
+"bytes": 12645,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"blndr.lua"
+]
+},
+{
+"name": "bloom",
+"url": "https://github.com/schollz/bloom",
+"tags": [
+"generative",
+"midi",
+"grid",
+"crow"
+],
+"description": "recreation of Eno and Chilvers' 'bloom' app",
+"truncated": false,
+"bytes": 8458749,
+"files": 63,
+"sc": [
+"Engine_Bloom.sc",
+"ignore/MonomeGrid.sc",
+"lib/BloomPattern.sc",
+"lib/BloomRecord.sc",
+"lib/BloomSample.sc",
+"lib/BloomWildly.sc"
+],
+"binaries": [],
+"audio": 27,
+"audio_bytes": 7983996,
+"submodules": false,
+"lua_top": [
+"bloom.lua"
+]
+},
+{
+"name": "blue",
+"url": "https://github.com/tehn/blue",
+"tags": [
+"art"
+],
+"description": "endless waves",
+"truncated": false,
+"bytes": 7491579,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 1,
+"audio_bytes": 7488690,
+"submodules": false,
+"lua_top": [
+"blue.lua"
+]
+},
+{
+"name": "boingg",
+"url": "https://github.com/justmat/boingg",
+"tags": [
+"sequencer",
+"midi",
+"jf",
+"grid"
+],
+"description": "a bouncing ball sequencer",
+"truncated": false,
+"bytes": 7922,
+"files": 1,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"boingg.lua"
+]
+},
+{
+"name": "bounds",
+"url": "https://github.com/justmat/bounds",
+"tags": [
+"looper",
+"delay"
+],
+"description": "stereo delay/looper",
+"truncated": false,
+"bytes": 27143,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"bounds.lua"
+]
+},
+{
+"name": "breakthrough",
+"url": "https://github.com/tomwaters/breakthrough",
+"tags": [
+"sequencer",
+"generative",
+"midi"
+],
+"description": "sequencer / game",
+"truncated": false,
+"bytes": 11715,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"breakthrough.lua"
+]
+},
+{
+"name": "buoys",
+"url": "https://github.com/lylepmills/buoys",
+"tags": [
+"generative",
+"sampler",
+"sequencer",
+"art",
+"arc",
+"midi",
+"grid",
+"crow"
+],
+"description": "tidal influencer/activator/lightshow",
+"truncated": false,
+"bytes": 152727,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"buoys.lua"
+]
+},
+{
+"name": "caliper",
+"url": "https://github.com/synthetiv/caliper",
+"tags": [
+"utility",
+"crow"
+],
+"description": "v/oct calibration assistant",
+"truncated": false,
+"bytes": 7938,
+"files": 3,
+"sc": [
+"lib/Engine_Caliper.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"caliper.lua"
+]
+},
+{
+"name": "carter's delay",
+"url": "https://github.com/williamthazard/carters-delay-norns",
+"tags": [
+"delay",
+"art"
+],
+"description": "a simple multi-tap delay for the young and young at heart",
+"truncated": false,
+"bytes": 14319,
+"files": 4,
+"sc": [
+"lib/Engine_CartersDelay.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"cartersdelay.lua"
+]
+},
+{
+"name": "cccccccc",
+"url": "https://github.com/ypxk/cccccccc",
+"tags": [
+"utility",
+"arc"
+],
+"description": "ccs for arc dials",
+"truncated": false,
+"bytes": 8429,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"cccccccc.lua"
+]
+},
+{
+"name": "cc-canvas",
+"url": "https://github.com/monome/cc-canvas",
+"tags": [
+"midi",
+"utility",
+"grid"
+],
+"description": "fifteen midi cc sliders with slewing and recall",
+"truncated": false,
+"bytes": 47591,
+"files": 8,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"cc-canvas.lua"
+]
+},
+{
+"name": "changes",
+"url": "https://github.com/markwheeler/changes",
+"tags": [
+"sequencer",
+"utility",
+"midi"
+],
+"description": "generate eight connected sine wave lfos and output them over midi",
+"truncated": false,
+"bytes": 39480,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"changes.lua"
+]
+},
+{
+"name": "cheat_codes_2",
+"url": "https://github.com/dndrks/cheat_codes_2",
+"tags": [
+"sampler",
+"delay",
+"looper",
+"sequencer",
+"midi",
+"arc",
+"grid",
+"jf"
+],
+"description": "a sample playground",
+"truncated": false,
+"bytes": 698108,
+"files": 27,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": true,
+"lua_top": [
+"cheat_codes_2.lua"
+]
+},
+{
+"name": "choukanzu",
+"url": "https://github.com/ryleelyman/choukanzu",
+"tags": [
+"mod"
+],
+"description": "take a bird's-eye view of norns script params",
+"truncated": false,
+"bytes": 3374,
+"files": 1,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": []
+},
+{
+"name": "circles",
+"url": "https://github.com/JakeCarter/circles",
+"tags": [
+"sequencer",
+"crow"
+],
+"description": "move cursor. place circles. make music",
+"truncated": false,
+"bytes": 31079,
+"files": 9,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"circles.lua"
+]
+},
+{
+"name": "clarck",
+"url": "https://github.com/okyeron/clarck",
+"tags": [
+"utility",
+"arc",
+"clock"
+],
+"description": "a clock for arc4 on norns",
+"truncated": false,
+"bytes": 3430,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"clarck.lua"
+]
+},
+{
+"name": "clcks",
+"url": "https://github.com/schollz/clcks",
+"tags": [
+"audio_fx"
+],
+"description": "punch-in tempo-locked repeating",
+"truncated": false,
+"bytes": 10594,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"clcks.lua"
+]
+},
+{
+"name": "clipper",
+"url": "https://github.com/jaseknighter/clipper",
+"tags": [
+"sampler"
+],
+"description": "slice and save samples",
+"truncated": false,
+"bytes": 79209,
+"files": 14,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"clipper.lua"
+]
+},
+{
+"name": "clockabout",
+"url": "https://github.com/niksilver/clockabout",
+"tags": [
+"midi",
+"utilities",
+"clock",
+"mod"
+],
+"description": "A non-linear MIDI clock",
+"truncated": false,
+"bytes": 233315,
+"files": 25,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"clockabout.lua"
+]
+},
+{
+"name": "colorwheel",
+"url": "https://github.com/yams7457/colorwheel",
+"tags": [
+"sequencer",
+"grid",
+"midi"
+],
+"description": "harmonic performance sequencer",
+"truncated": false,
+"bytes": 67725,
+"files": 6,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"colorwheel.lua"
+]
+},
+{
+"name": "combiner",
+"url": "https://github.com/dstroud/combiner",
+"tags": [
+"mod",
+"utility",
+"grid"
+],
+"description": "mod to combine multiple Grids to operate as a single device",
+"truncated": false,
+"bytes": 59008,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": []
+},
+{
+"name": "combos",
+"url": "https://github.com/justmat/combos",
+"tags": [],
+"description": "combo scripts",
+"truncated": false,
+"bytes": 41124,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"earthbound.lua",
+"oats.lua"
+]
+},
+{
+"name": "compass",
+"url": "https://github.com/oliviercreurer/compass",
+"tags": [
+"sequencer",
+"looper",
+"grid",
+"arc"
+],
+"description": "asynchronous looper built around the concept of a command sequencer",
+"truncated": false,
+"bytes": 34638,
+"files": 5,
+"sc": [
+"lib/Engine_Decimatec.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"compass.lua"
+]
+},
+{
+"name": "concrete",
+"url": "https://github.com/sonocircuit/concrete",
+"tags": [
+"sampler",
+"delay",
+"looper",
+"grid",
+"arc"
+],
+"description": "virtual tape lab",
+"truncated": false,
+"bytes": 837819,
+"files": 10,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"concrete.lua"
+]
+},
+{
+"name": "constellations",
+"url": "https://github.com/timothy-taylor/constellations",
+"tags": [
+"generative",
+"sequencer",
+"midi",
+"crow"
+],
+"description": "scan the stars; make music! an interactive sequencer for Norns, Crow, JF, and midi.",
+"truncated": false,
+"bytes": 45130,
+"files": 14,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"constellations.lua"
+]
+},
+{
+"name": "corners",
+"url": "https://github.com/Quixotic7/corners",
+"tags": [
+"synth",
+"generative",
+"grid",
+"midi"
+],
+"description": "a grid controlled physics instrument. ported from tehn's m4l script",
+"truncated": false,
+"bytes": 48379,
+"files": 11,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"corners.lua"
+]
+},
+{
+"name": "cranes",
+"url": "https://github.com/dndrks/cranes",
+"tags": [
+"delay",
+"looper",
+"grid"
+],
+"description": "stereo varispeed looper / delay / timeline-smoosher",
+"truncated": false,
+"bytes": 27833,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"cranes.lua"
+]
+},
+{
+"name": "crow_talk",
+"url": "https://github.com/justmat/crow_talk",
+"tags": [
+"utility",
+"keyboard",
+"crow"
+],
+"description": "talk to crow with norns",
+"truncated": false,
+"bytes": 9747,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"crow_talk.lua"
+]
+},
+{
+"name": "cryptkeeper",
+"url": "https://github.com/joelwalden/cryptkeeper",
+"tags": [
+"utility"
+],
+"description": "Create and edit crypts for arcologies",
+"truncated": false,
+"bytes": 9478,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"cryptkeeper.lua"
+]
+},
+{
+"name": "cybermidi",
+"url": "https://github.com/dstroud/cybermidi",
+"tags": [
+"mod",
+"utility",
+"midi"
+],
+"description": "mod to send MIDI notes between Norns over IP",
+"truncated": false,
+"bytes": 52126,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": []
+},
+{
+"name": "cyrene",
+"url": "https://github.com/21echoes/cyrene",
+"tags": [
+"sequencer",
+"drum",
+"midi",
+"arc",
+"grid",
+"crow"
+],
+"description": "a drum sequencer based on Mutable Instruments Grids",
+"truncated": false,
+"bytes": 153454,
+"files": 23,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"cyrene.lua"
+]
+},
+{
+"name": "d",
+"url": "https://github.com/justmat/d",
+"tags": [
+"audio_fx",
+"midi"
+],
+"description": "distort, destroy, downsample and disintegrate",
+"truncated": false,
+"bytes": 165168,
+"files": 7,
+"sc": [
+"lib/Engine_D.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"d.lua"
+]
+},
+{
+"name": "delar",
+"url": "https://github.com/filipforsstrom/delar",
+"tags": [
+"sampler",
+"sequencer",
+"grid"
+],
+"description": "always looping sample player",
+"truncated": false,
+"bytes": 61219,
+"files": 5,
+"sc": [
+"lib/DelarSequencer.sc",
+"lib/Engine_DelarSequencer.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"delar.lua"
+]
+},
+{
+"name": "delinquencer",
+"url": "https://github.com/kevinlindley/delinquencer",
+"tags": [
+"sequencer",
+"midi"
+],
+"description": "a sequencer but with a mind of its own",
+"truncated": false,
+"bytes": 174953,
+"files": 35,
+"sc": [
+"lib/Engine_PolySaw.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"delinquencer.lua"
+]
+},
+{
+"name": "demoncore",
+"url": "https://github.com/kevinlindley/demoncore",
+"tags": [
+"synth",
+"noise"
+],
+"description": "a simple noise module but with a mind of its own",
+"truncated": false,
+"bytes": 280429,
+"files": 11,
+"sc": [
+"lib/Engine_DemonCore.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"demoncore.lua"
+]
+},
+{
+"name": "delayyyyyyyy",
+"url": "https://github.com/cfdrake/delayyyyyyyy",
+"tags": [
+"delay"
+],
+"description": "warm delay with modulation and stereo separation",
+"truncated": false,
+"bytes": 3852,
+"files": 3,
+"sc": [
+"lib/engine_delayyyyyyyy.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"delayyyyyyyy.lua"
+]
+},
+{
+"name": "descartes",
+"url": "https://github.com/keenanmcdonald/descartes",
+"tags": [
+"sequencer",
+"grid"
+],
+"description": "a cartesian sequencer for grid",
+"truncated": false,
+"bytes": 32174,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"descartes.lua"
+]
+},
+{
+"name": "downtown",
+"url": "https://github.com/schollz/downtown",
+"tags": [
+"looper"
+],
+"description": "record stereo loops while engine loops",
+"truncated": false,
+"bytes": 786373,
+"files": 7,
+"sc": [
+"lib/Engine_Downtown.sc"
+],
+"binaries": [],
+"audio": 1,
+"audio_bytes": 710936,
+"submodules": false,
+"lua_top": [
+"downtown.lua"
+]
+},
+{
+"name": "dreamsequence",
+"url": "https://github.com/dstroud/dreamsequence",
+"tags": [
+"sequencer",
+"grid",
+"crow",
+"midi",
+"nb"
+],
+"description": "chord-based sequencer, arpeggiator, and harmonizer for norns + grid",
+"truncated": false,
+"bytes": 4001431,
+"files": 35,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"dreamsequence.lua"
+]
+},
+{
+"name": "drift",
+"url": "https://github.com/echophon/drift",
+"tags": [
+"sequencer"
+],
+"description": "drifting relationships creating sequences",
+"truncated": false,
+"bytes": 19576,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"drift.lua"
+]
+},
+{
+"name": "dronecaster",
+"url": "https://github.com/northern-information/dronecaster",
+"tags": [
+"synth",
+"drone",
+"generative"
+],
+"description": "cast drones & record whatever returns",
+"truncated": false,
+"bytes": 158318,
+"files": 54,
+"sc": [
+"engine/Dronecaster_SynthSocket.sc",
+"engine/Engine_Dronecaster.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"dronecaster.lua"
+]
+},
+{
+"name": "drum_room",
+"url": "https://github.com/markwheeler/drum_room",
+"tags": [
+"drum",
+"midi"
+],
+"description": "midi-controlled drum kits",
+"truncated": false,
+"bytes": 982830,
+"files": 41,
+"sc": [],
+"binaries": [],
+"audio": 34,
+"audio_bytes": 907410,
+"submodules": false,
+"lua_top": [
+"drum_room.lua"
+]
+},
+{
+"name": "dunes",
+"url": "https://github.com/oliviercreurer/dunes",
+"tags": [
+"sequencer",
+"midi"
+],
+"description": "a function sequencer",
+"truncated": false,
+"bytes": 300425,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"dunes.lua"
+]
+},
+{
+"name": "easygrain",
+"url": "https://github.com/mhetrick/easygrain",
+"tags": [
+"granulator",
+"arc"
+],
+"description": "a simple granulator, now with optional arc support",
+"truncated": false,
+"bytes": 11953,
+"files": 3,
+"sc": [
+"lib/Engine_EasyGlut.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"easygrain.lua"
+]
+},
+{
+"name": "ekombi",
+"url": "https://github.com/tlubke/ekombi",
+"tags": [
+"sequencer",
+"midi",
+"grid"
+],
+"description": "polyrhythmic sequencer/sampler using ack",
+"truncated": false,
+"bytes": 36955,
+"files": 9,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"ekombi.lua"
+]
+},
+{
+"name": "endless-stairs",
+"url": "https://github.com/midouest/endless-stairs",
+"tags": [
+"synth",
+"sequencer",
+"grid",
+"crow",
+"jf"
+],
+"description": "shepard tone generator",
+"truncated": false,
+"bytes": 18590,
+"files": 10,
+"sc": [
+"lib/Engine_Shepard.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"endless-stairs.lua"
+]
+},
+{
+"name": "esper",
+"url": "https://github.com/cachilders/esper",
+"tags": [
+"sequencer"
+],
+"description": "an image sonifier",
+"truncated": false,
+"bytes": 56855,
+"files": 36,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"esper.lua"
+]
+},
+{
+"name": "eterna",
+"url": "https://github.com/etsuko-fm/eterna",
+"tags": [
+"sequencer",
+"sampler"
+],
+"description": " six-voice sampler and sequencer",
+"truncated": false,
+"bytes": 284586,
+"files": 61,
+"sc": [
+"lib/supercollider/bass_mono.sc",
+"lib/supercollider/dub_echo.sc",
+"lib/supercollider/eterna.sc",
+"lib/supercollider/filters.sc",
+"lib/supercollider/master.sc",
+"lib/supercollider/mist_echo.sc",
+"lib/supercollider/sample_voice.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"eterna.lua"
+]
+},
+{
+"name": "euclidigons",
+"url": "https://github.com/synthetiv/euclidigons",
+"tags": [
+"sequencer",
+"synth"
+],
+"description": "geometric rhythm generator",
+"truncated": false,
+"bytes": 38988,
+"files": 6,
+"sc": [
+"lib/Engine_PrimitiveString.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"euclidigons.lua"
+]
+},
+{
+"name": "faeng",
+"url": "https://github.com/ryleelyman/faeng",
+"tags": [
+"sequencer",
+"grid",
+"arc"
+],
+"description": "faeng is a sequencer. inspired by kria. powered by timber.",
+"truncated": false,
+"bytes": 286720,
+"files": 23,
+"sc": [
+"lib/Engine_Turns.sc",
+"lib/ignore/FormantTriPTR.sc",
+"lib/ignore/PulsePTR.sc"
+],
+"binaries": [
+"lib/ignore/FormantTriPTR_scsynth.so",
+"lib/ignore/PulsePTR_scsynth.so"
+],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"faeng.lua"
+]
+},
+{
+"name": "fall",
+"url": "https://github.com/ambalek/fall",
+"tags": [
+"sequencer",
+"generative",
+"synth",
+"crow",
+"midi"
+],
+"description": "autumnal generative synth with midi and crow sequencing",
+"truncated": false,
+"bytes": 83525,
+"files": 20,
+"sc": [
+"Engine_Autumn.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"fall.lua"
+]
+},
+{
+"name": "raindrops",
+"url": "https://github.com/ambalek/raindrops",
+"tags": [
+"sequencer",
+"generative",
+"synth",
+"midi"
+],
+"description": "generative melodies complete with lo-fi effects",
+"truncated": false,
+"bytes": 24437,
+"files": 4,
+"sc": [
+"Engine_Snowflake.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"raindrops.lua"
+]
+},
+{
+"name": "fibonacci",
+"url": "https://github.com/bryceadams/fibonacci",
+"tags": [
+"sequencer",
+"generative",
+"crow",
+"midi"
+],
+"description": "a sequencer that travels through numbers and time",
+"truncated": false,
+"bytes": 32924,
+"files": 7,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"fibonacci.lua"
+]
+},
+{
+"name": "fiahod",
+"url": "https://github.com/northern-information/fiahod",
+"tags": [
+"art",
+"generative"
+],
+"description": "i will show you fear in a handful of dust",
+"truncated": false,
+"bytes": 104530,
+"files": 8,
+"sc": [
+"lib/Engine_Fiahod.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"fiahod.lua"
+]
+},
+{
+"name": "flora",
+"url": "https://github.com/jaseknighter/flora",
+"tags": [
+"generative",
+"synth",
+"sequencer",
+"midi",
+"crow",
+"jf",
+"w/"
+],
+"description": "l-systems sequencer and bandpass-filtered sawtooth engine",
+"truncated": false,
+"bytes": 857787,
+"files": 55,
+"sc": [
+"lib/Engine_BandSaw.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": true,
+"lua_top": [
+"flora.lua"
+]
+},
+{
+"name": "fm7",
+"url": "https://github.com/lazzarello/fm7",
+"tags": [
+"synth",
+"grid",
+"midi"
+],
+"description": "polyphonic 6 operator fm synth",
+"truncated": false,
+"bytes": 440361,
+"files": 43,
+"sc": [
+"engine/Engine_FM7.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"fm7.lua"
+]
+},
+{
+"name": "folio",
+"url": "https://github.com/csboling/folio",
+"tags": [
+"utility"
+],
+"description": "browse downloadable scripts from the comfort of your norns",
+"truncated": false,
+"bytes": 16758,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"folio.lua"
+]
+},
+{
+"name": "footfoot",
+"url": "https://github.com/melocoi/footfoot",
+"tags": [
+"looper",
+"generative"
+],
+"description": "my pal",
+"truncated": false,
+"bytes": 33810,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"footfoot.lua"
+]
+},
+{
+"name": "forge",
+"url": "https://github.com/cachilders/forge",
+"tags": [
+"sequencer",
+"generative",
+"crow",
+"midi"
+],
+"description": "a playable  oscilloscope for norns and crow",
+"truncated": false,
+"bytes": 141445,
+"files": 29,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": true,
+"lua_top": [
+"forge.lua"
+]
+},
+{
+"name": "foulplay",
+"url": "https://github.com/justmat/foulplay",
+"tags": [
+"drum",
+"sequencer",
+"midi",
+"grid"
+],
+"description": "euclidean rhythms with logic and probability",
+"truncated": false,
+"bytes": 105514,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"foulplay.lua"
+]
+},
+{
+"name": "foundry",
+"url": "https://github.com/csboling/foundry",
+"tags": [
+"utility"
+],
+"description": "Font / glyph catalog",
+"truncated": false,
+"bytes": 13416,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"foundry.lua"
+]
+},
+{
+"name": "fugarc",
+"url": "https://github.com/mortenwagner/fugarc",
+"tags": [
+"sequencer",
+"grid",
+"arc"
+],
+"description": "fugu meets awake sequencer",
+"truncated": false,
+"bytes": 19280,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"fugarc.lua"
+]
+},
+{
+"name": "fugu",
+"url": "https://github.com/itsyourbedtime/fugu",
+"tags": [
+"sequencer",
+"grid"
+],
+"description": "multi playhead sequencer",
+"truncated": false,
+"bytes": 18372,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"fugu.lua"
+]
+},
+{
+"name": "gematria",
+"url": "https://github.com/northern-information/gematria",
+"tags": [
+"sequencer",
+"crow"
+],
+"description": "organized electricty with norns & crow",
+"truncated": false,
+"bytes": 17758,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"gematria.lua"
+]
+},
+{
+"name": "gemini",
+"url": "https://github.com/mhetrick/gemini",
+"tags": [
+"granulator",
+"arc"
+],
+"description": "twin granulators. watch them race.",
+"truncated": false,
+"bytes": 12615,
+"files": 3,
+"sc": [
+"lib/Engine_Gemini.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"gemini.lua"
+]
+},
+{
+"name": "get in the sea!",
+"url": "https://github.com/tomwaters/get_in_the_sea",
+"tags": [
+"midi"
+],
+"description": "your norns plays Terry Riley's In C",
+"truncated": false,
+"bytes": 13107,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"get_in_the_sea.lua"
+]
+},
+{
+"name": "giro",
+"url": "https://github.com/juhavaaraniemi/giro",
+"tags": [
+"looper",
+"midi"
+],
+"description": "performance oriented (a)sync looper",
+"truncated": false,
+"bytes": 35025,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"giro.lua"
+]
+},
+{
+"name": "glaciers",
+"url": "https://github.com/dwtong/glaciers",
+"tags": [
+"audio_fx"
+],
+"description": "extreme sound stretcher and harmoniser",
+"truncated": false,
+"bytes": 22648,
+"files": 9,
+"sc": [
+"lib/Engine_Glacial.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"glaciers.lua"
+]
+},
+{
+"name": "glitchlets",
+"url": "https://github.com/schollz/glitchlets",
+"tags": [
+"audio_fx"
+],
+"description": "lets glitch with glitchlets.",
+"truncated": false,
+"bytes": 25015,
+"files": 4,
+"sc": [
+"lib/Engine_Warb.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"glitchlets.lua"
+]
+},
+{
+"name": "glitchlooper",
+"url": "https://github.com/carltesta/glitchlooper",
+"tags": [
+"looper",
+"audio_fx"
+],
+"description": "5 unsynchronized loops with an auto mode",
+"truncated": false,
+"bytes": 48117,
+"files": 4,
+"sc": [
+"lib/Engine_GlitchLooper.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"glitchlooper.lua"
+]
+},
+{
+"name": "glut",
+"url": "https://github.com/artfwo/glut",
+"tags": [
+"granulator",
+"grid"
+],
+"description": "granular synth inspired by mlr/rove, grainfields 20 and loomer cumulus",
+"truncated": false,
+"bytes": 15099,
+"files": 3,
+"sc": [
+"Engine_Glut.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"glut.lua"
+]
+},
+{
+"name": "goldeneye",
+"url": "https://github.com/northern-information/goldeneye",
+"tags": [
+"grid"
+],
+"description": "entropic background radiation",
+"truncated": false,
+"bytes": 45195587,
+"files": 140,
+"sc": [
+"lib/Engine_Goldeneye.sc"
+],
+"binaries": [],
+"audio": 128,
+"audio_bytes": 45164032,
+"submodules": false,
+"lua_top": [
+"goldeneye.lua"
+]
+},
+{
+"name": "groovecats",
+"url": "https://github.com/Quixotic7/groovecats",
+"tags": [
+"sequencer",
+"generative",
+"grid",
+"midi"
+],
+"description": "physics based sequencer for people who like cats",
+"truncated": false,
+"bytes": 124420,
+"files": 28,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"groovecats.lua"
+]
+},
+{
+"name": "grains",
+"url": "https://github.com/danielrigler/grains",
+"tags": [
+"granulator",
+"audio_fx"
+],
+"description": "A six-voice granular looper",
+"truncated": false,
+"bytes": 233841,
+"files": 21,
+"sc": [
+"lib/engine_grains.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"grains.lua"
+]
+},
+{
+"name": "graintopia",
+"url": "https://github.com/schollz/graintopia",
+"tags": [
+"granulator"
+],
+"description": "three lands with six grains",
+"truncated": false,
+"bytes": 4557574,
+"files": 22,
+"sc": [
+"lib/Engine_Graintopia.sc"
+],
+"binaries": [
+"lib/cjson.so"
+],
+"audio": 2,
+"audio_bytes": 4460396,
+"submodules": true,
+"lua_top": [
+"graintopia.lua"
+]
+},
+{
+"name": "granchild",
+"url": "https://github.com/schollz/granchild",
+"tags": [
+"sequencer",
+"granulator",
+"grid"
+],
+"description": "quantized granular sequencer",
+"truncated": false,
+"bytes": 54016,
+"files": 6,
+"sc": [
+"lib/Engine_ZGlut.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"granchild.lua"
+]
+},
+{
+"name": "grendy",
+"url": "https://github.com/cfdrake/grendy",
+"tags": [
+"synth",
+"midi"
+],
+"description": "simple drone synth, grendel drone commander inspired",
+"truncated": false,
+"bytes": 7220,
+"files": 4,
+"sc": [
+"lib/engine_grendy.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"grendy.lua"
+]
+},
+{
+"name": "grd",
+"url": "https://github.com/yotamorimoto/grd",
+"tags": [
+"generative",
+"art",
+"sequencer"
+],
+"description": "a model of sonic behaviour",
+"truncated": false,
+"bytes": 10592126,
+"files": 33,
+"sc": [
+"engine_grd.sc"
+],
+"binaries": [],
+"audio": 14,
+"audio_bytes": 8116626,
+"submodules": false,
+"lua_top": [
+"grd.lua"
+]
+},
+{
+"name": "interpret",
+"url": "https://github.com/yotamorimoto/interpret",
+"tags": [
+"utility",
+"engine"
+],
+"description": "just-interpret-engine",
+"truncated": false,
+"bytes": 3878,
+"files": 5,
+"sc": [
+"engine_interpret.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"example1.lua",
+"example2.lua"
+]
+},
+{
+"name": "greyhole",
+"url": "https://github.com/justmat/greyhole",
+"tags": [
+"delay"
+],
+"description": "echo / delay",
+"truncated": false,
+"bytes": 9387,
+"files": 4,
+"sc": [
+"lib/Engine_Greyhole.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"greyhole.lua"
+]
+},
+{
+"name": "gridofpoints",
+"url": "https://github.com/duncangeere/gridofpoints",
+"tags": [
+"generative",
+"controller",
+"norns",
+"grid",
+"arc",
+"crow",
+"midi",
+"jf"
+],
+"description": "sixteen notes, seven timbres",
+"truncated": false,
+"bytes": 62518,
+"files": 8,
+"sc": [
+"lib/Engine_GridofPoints.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"gridofpoints.lua"
+]
+},
+{
+"name": "gridstep",
+"url": "https://github.com/Quixotic7/gridstep",
+"tags": [
+"sequencer",
+"midi",
+"grid"
+],
+"description": "16 track isomorphic grid sequencer for timber and midi",
+"truncated": false,
+"bytes": 876681,
+"files": 64,
+"sc": [
+"lib/Engine_Timber_Gridstep.sc"
+],
+"binaries": [],
+"audio": 1,
+"audio_bytes": 264976,
+"submodules": false,
+"lua_top": [
+"gridstep.lua"
+]
+},
+{
+"name": "grid-test",
+"url": "https://github.com/okyeron/grid-test",
+"tags": [
+"utility",
+"grid"
+],
+"description": "A utility script for testing grids",
+"truncated": false,
+"bytes": 15229,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"grid-test.lua"
+]
+},
+{
+"name": "haven",
+"url": "https://github.com/tai-studio/haven",
+"tags": [
+"synth",
+"art",
+"midi",
+"noise"
+],
+"description": "a safe space?",
+"truncated": false,
+"bytes": 102023,
+"files": 5,
+"sc": [
+"lib/Engine_Haven.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"haven.lua"
+]
+},
+{
+"name": "hachi",
+"url": "https://github.com/pangrus/hachi",
+"tags": [
+"drum"
+],
+"description": "euclidean drum machine emulating the TR-808 sound",
+"truncated": false,
+"bytes": 45223,
+"files": 6,
+"sc": [
+"lib/engine_hachi.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"hachi.lua"
+]
+},
+{
+"name": "hands",
+"url": "https://github.com/danielrigler/hands",
+"tags": [
+"generative",
+"midi"
+],
+"description": "A piano player.",
+"truncated": false,
+"bytes": 194812,
+"files": 9,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"hands.lua"
+]
+},
+{
+"name": "haze",
+"url": "https://github.com/szymonkaliski/haze",
+"tags": [
+"looper",
+"granulator"
+],
+"description": "four track live granular looper",
+"truncated": false,
+"bytes": 656227,
+"files": 11,
+"sc": [
+"lib/Engine_Haze.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"haze.lua"
+]
+},
+{
+"name": "here-there",
+"url": "https://github.com/speakerdamage/here-there",
+"tags": [
+"granulator",
+"audio_fx",
+"synth"
+],
+"description": "the sound begins here but you began there",
+"truncated": false,
+"bytes": 40530,
+"files": 5,
+"sc": [
+"lib/Engine_HereThere.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"here-there.lua"
+]
+},
+{
+"name": "hid_demo",
+"url": "https://github.com/okyeron/hid-demo",
+"tags": [
+"eduscript"
+],
+"description": "demo scripts for hid functionality",
+"truncated": false,
+"bytes": 12722,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"hid-events.lua",
+"hid-keyboard-test.lua",
+"shell.lua"
+]
+},
+{
+"name": "hpns",
+"url": "https://github.com/hiddenfields/hpns",
+"tags": [
+"sequencer",
+"grid",
+"crow",
+"ansible"
+],
+"description": "probablistic step sequencer for modular. its basically parc",
+"truncated": false,
+"bytes": 61715,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"hpns.lua",
+"hpnsansible.lua"
+]
+},
+{
+"name": "hs010",
+"url": "https://github.com/Karolis-Lasys/hs010",
+"tags": [
+"synth",
+"sequencer",
+"midi"
+],
+"description": "Bass and lead voice with a multi-playhead sequencer.",
+"truncated": false,
+"bytes": 97115,
+"files": 20,
+"sc": [
+"lib/NB_HS010.sc",
+"lib/Polyphonia.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": true,
+"lua_top": [
+"hs010.lua"
+]
+},
+{
+"name": "icarus",
+"url": "https://github.com/schollz/icarus",
+"tags": [
+"synth",
+"midi"
+],
+"description": "supersaw synth with feedback",
+"truncated": false,
+"bytes": 24526,
+"files": 6,
+"sc": [
+"lib/Engine_Icarus.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"icarus.lua"
+]
+},
+{
+"name": "impact",
+"url": "https://github.com/Mendrzec/impact",
+"tags": [
+"drum",
+"sequencer",
+"grid"
+],
+"description": "drum machine based on arturia's drumbrute impact",
+"truncated": false,
+"bytes": 264890,
+"files": 8,
+"sc": [
+"lib/engine_impact.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"impact.lua"
+]
+},
+{
+"name": "internorns",
+"url": "https://github.com/schollz/internorns",
+"tags": [
+"utility"
+],
+"description": "a live-coding environment",
+"truncated": false,
+"bytes": 9638771,
+"files": 21,
+"sc": [
+"lib/Engine_MxInternorns.sc"
+],
+"binaries": [],
+"audio": 5,
+"audio_bytes": 9526650,
+"submodules": false,
+"lua_top": [
+"internorns.lua"
+]
+},
+{
+"name": "islands",
+"url": "https://github.com/junklight/islands.git",
+"tags": [
+"sequencer",
+"synth",
+"looper",
+"grid"
+],
+"description": "fm7, earthsea, kria, looper",
+"truncated": false,
+"bytes": 157828,
+"files": 10,
+"sc": [
+"lib/Engine_MT7.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"islands.lua"
+]
+},
+{
+"name": "isoseq",
+"url": "https://github.com/carvingCode/isoseq",
+"tags": [
+"sequencer",
+"grid"
+],
+"description": "isomorphic sequencer for norns and grid",
+"truncated": false,
+"bytes": 21916,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"isoseq.lua"
+]
+},
+{
+"name": "jala",
+"url": "https://github.com/ulf/jala",
+"tags": [
+"sequencer",
+"midi"
+],
+"description": "ambient random sequencer",
+"truncated": false,
+"bytes": 15241,
+"files": 1,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"jala.lua"
+]
+},
+{
+"name": "jiffy",
+"url": "https://github.com/lukes-anger/jiffy",
+"tags": [
+"looper"
+],
+"description": "16 second looper",
+"truncated": false,
+"bytes": 9585,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"jiffy.lua"
+]
+},
+{
+"name": "justharmonicon",
+"url": "https://github.com/sonocircuit/justharmonicon",
+"tags": [
+"sequencer",
+"crow",
+"jf"
+],
+"description": "subharmonic sequencer for jf",
+"truncated": false,
+"bytes": 157621,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"justharmonicon.lua"
+]
+},
+{
+"name": "just-play",
+"url": "https://github.com/midouest/just-play",
+"tags": [
+"utility",
+"crow",
+"grid",
+"midi",
+"jf"
+],
+"description": "play just friends with midi",
+"truncated": false,
+"bytes": 20321,
+"files": 13,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"just-play.lua"
+]
+},
+{
+"name": "kolor",
+"url": "https://github.com/schollz/kolor",
+"tags": [
+"sequencer",
+"drum",
+"grid"
+],
+"description": "grid-based sample sequencer",
+"truncated": false,
+"bytes": 66748903,
+"files": 467,
+"sc": [
+"lib/Engine_Kolor.sc"
+],
+"binaries": [
+"lib/cjson.so"
+],
+"audio": 407,
+"audio_bytes": 59654076,
+"submodules": false,
+"lua_top": [
+"kolor.lua"
+]
+},
+{
+"name": "kreislauf",
+"url": "https://github.com/frederickk/kreislauf",
+"tags": [
+"drum",
+"sequencer",
+"midi",
+"crow"
+],
+"description": "beat sequencing rund um den kreis ",
+"truncated": false,
+"bytes": 281380,
+"files": 28,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"kreislauf.lua"
+]
+},
+{
+"name": "kria_midi",
+"url": "https://github.com/junklight/kria_midi",
+"tags": [],
+"description": "port of kria from ansible",
+"truncated": false,
+"bytes": 58133,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"kria_midi.lua"
+]
+},
+{
+"name": "krill",
+"url": "https://github.com/jaseknighter/krill",
+"tags": [],
+"description": "a Lorenz system sequencer and mod matrix with a physical modelling synthesis engine",
+"truncated": false,
+"bytes": 11125183,
+"files": 40,
+"sc": [
+"lib/Engine_Krill.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"krill.lua"
+]
+},
+{
+"name": "lamination",
+"url": "https://github.com/ryleelyman/lamination",
+"tags": [
+"synth",
+"sequencer",
+"crow"
+],
+"description": "substitution sequencer",
+"truncated": false,
+"bytes": 50071,
+"files": 5,
+"sc": [
+"ignore/FormantTriPTR.sc",
+"lib/Engine_FormantPerc.sc"
+],
+"binaries": [
+"ignore/FormantTriPTR_scsynth.so"
+],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"lamination.lua"
+]
+},
+{
+"name": "l_ll__l_",
+"url": "https://github.com/schollz/l_ll__l_",
+"tags": [
+"generative",
+"grid",
+"crow"
+],
+"description": "interact with a musical emission spectrum",
+"truncated": false,
+"bytes": 43766,
+"files": 8,
+"sc": [
+"lib/Engine_EmissionSpectrum.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"l_ll__l_.lua"
+]
+},
+{
+"name": "lamellae",
+"url": "https://github.com/Not-A-Creative/lamellae",
+"tags": [
+"generative",
+"sequencer",
+"midi"
+],
+"description": "a music box inspired generative instrument/sequencer",
+"truncated": false,
+"bytes": 15680,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"lamellae.lua"
+]
+},
+{
+"name": "larc",
+"url": "https://github.com/justmat/larc",
+"tags": [
+"delay",
+"looper",
+"arc"
+],
+"description": "looper/delay",
+"truncated": false,
+"bytes": 302855,
+"files": 11,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"larc.lua"
+]
+},
+{
+"name": "lemniscate",
+"url": "https://github.com/cachilders/lemniscate",
+"tags": [
+"looper"
+],
+"description": "an 8-track-cassette-inspired looper",
+"truncated": false,
+"bytes": 1006752,
+"files": 19,
+"sc": [
+"lib/engine/Engine_Lemnisc8.sc"
+],
+"binaries": [],
+"audio": 5,
+"audio_bytes": 979456,
+"submodules": false,
+"lua_top": [
+"lemniscate.lua"
+]
+},
+{
+"name": "leslie",
+"url": "https://github.com/moapacha/leslie",
+"tags": [
+"audio_fx",
+"engine"
+],
+"description": "doppler, tremolo, and the slow spin-up",
+"truncated": false,
+"bytes": 68064,
+"files": 7,
+"sc": [
+"lib/Engine_Leslie.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"leslie.lua"
+]
+},
+{
+"name": "less-concepts",
+"url": "https://github.com/vicimity-dndrks/less_concepts",
+"tags": [
+"sequencer",
+"grid",
+"crow",
+"jf",
+"w",
+"midi",
+"generative"
+],
+"description": "1d cellular automata sequencer",
+"truncated": false,
+"bytes": 93729,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"less-concepts.lua"
+]
+},
+{
+"name": "lissadron",
+"url": "https://github.com/tai-studio/lissadron",
+"tags": [
+"synth",
+"generative",
+"midi"
+],
+"description": "seeding fields forever",
+"truncated": false,
+"bytes": 695505,
+"files": 9,
+"sc": [
+"lib/Engine_Lissadron.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"lissadron.lua"
+]
+},
+{
+"name": "loom",
+"url": "https://github.com/markwheeler/loom",
+"tags": [
+"sequencer",
+"generative",
+"midi",
+"jf",
+"crow",
+"grid"
+],
+"description": "pattern weaving sequencer for grids",
+"truncated": false,
+"bytes": 68041,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"loom.lua"
+]
+},
+{
+"name": "lorenzos-drums",
+"url": "https://github.com/schollz/lorenzos-drums",
+"tags": [
+"sequencer",
+"drum"
+],
+"description": "an electroacoustic drumset and sequencer",
+"truncated": false,
+"bytes": 169945,
+"files": 37,
+"sc": [
+"lib/Engine_LorenzosDrums.sc",
+"lib/LorenzosDrums.sc"
+],
+"binaries": [
+"lib/cjson.so"
+],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"lorenzos-drums.lua"
+]
+},
+{
+"name": "lorenz",
+"url": "https://github.com/Ericxgao/lorenz",
+"tags": [
+"happyaccident",
+"norns",
+"utilities",
+"utility",
+"crow"
+],
+"description": "strange attractors for crow",
+"truncated": false,
+"bytes": 27881,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"lorenz.lua"
+]
+},
+{
+"name": "loudnumbers_norns",
+"url": "https://github.com/loudnumbers/loudnumbers_norns",
+"tags": [
+"norns",
+"sequencer",
+"generative",
+"midi",
+"crow",
+"utility",
+"grid"
+],
+"description": "data sonification for norns",
+"truncated": false,
+"bytes": 71089,
+"files": 8,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"loudnumbers_norns.lua"
+]
+},
+{
+"name": "luck",
+"url": "https://github.com/isabelgk/luck",
+"tags": [
+"sequencer",
+"generative"
+],
+"description": "probabilistic sequencer",
+"truncated": false,
+"bytes": 8510,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"luck.lua"
+]
+},
+{
+"name": "m18s",
+"url": "https://github.com/jlmitch5/m18s",
+"tags": [
+"generative",
+"sequencer",
+"synth",
+"jf",
+"midi",
+"crow"
+],
+"description": "a sequencer based on the RYK M-185",
+"truncated": false,
+"bytes": 42292,
+"files": 6,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"m18s.lua"
+]
+},
+{
+"name": "magnetar",
+"url": "https://github.com/rync/magnetar",
+"tags": [
+"synth",
+"midi",
+"keyboard"
+],
+"description": "polyphonic pulsar synthesizer",
+"truncated": false,
+"bytes": 232696,
+"files": 10,
+"sc": [
+"lib/magnetar.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"magnetar.lua"
+]
+},
+{
+"name": "magpie",
+"url": "https://github.com/cachilders/magpie",
+"tags": [
+"midi",
+"crow"
+],
+"description": "signal routing and modulated note echo for midi and cv",
+"truncated": false,
+"bytes": 63206,
+"files": 32,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"magpie.lua"
+]
+},
+{
+"name": "makebreakbeat",
+"url": "https://github.com/schollz/makebreakbeat",
+"tags": [
+"sampler",
+"drum"
+],
+"description": "make breakbeats from samples",
+"truncated": false,
+"bytes": 1374117,
+"files": 12,
+"sc": [
+"lib/Engine_Makebreakbeat.sc"
+],
+"binaries": [],
+"audio": 4,
+"audio_bytes": 1306970,
+"submodules": false,
+"lua_top": [
+"makebreakbeat.lua"
+]
+},
+{
+"name": "mangl",
+"url": "https://github.com/notjustmat/mangl",
+"tags": [
+"granulator",
+"grid",
+"arc"
+],
+"description": "a 7 track granular sample player",
+"truncated": false,
+"bytes": 221963,
+"files": 5,
+"sc": [
+"lib/Engine_MGlut.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"mangl.lua"
+]
+},
+{
+"name": "manifold",
+"url": "https://github.com/carltesta/manifold",
+"tags": [
+"audio_fx"
+],
+"description": "multi-effects processing for live performance",
+"truncated": false,
+"bytes": 12576,
+"files": 3,
+"sc": [
+"Engine_Manifold.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"manifold.lua"
+]
+},
+{
+"name": "marcovaldo",
+"url": "https://github.com/cachilders/marcovaldo",
+"tags": [
+"sequencer",
+"arc",
+"grid"
+],
+"description": "spatial sequencer with cats",
+"truncated": false,
+"bytes": 2192342,
+"files": 100,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"marcovaldo.lua"
+]
+},
+{
+"name": "massif",
+"url": "https://github.com/justmat/massif",
+"tags": [
+"audio_fx"
+],
+"description": "8 band resonator",
+"truncated": false,
+"bytes": 32280,
+"files": 6,
+"sc": [
+"lib/Engine_ResonatorBank.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"massif.lua"
+]
+},
+{
+"name": "meadowphysics",
+"url": "https://github.com/dansimco/meadowphysics",
+"tags": [
+"sequencer",
+"synth",
+"drum",
+"grid",
+"crow",
+"jf"
+],
+"description": "grid-enabled rhizomatic cascading counter",
+"truncated": false,
+"bytes": 31469,
+"files": 11,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"ack.lua",
+"mxsynths.lua",
+"polyperc.lua"
+]
+},
+{
+"name": "metrix",
+"url": "https://github.com/kasperbauer/metrix",
+"tags": [
+"sequencer",
+"midi",
+"grid",
+"crow"
+],
+"description": "it's like metropolix for norns",
+"truncated": false,
+"bytes": 956885,
+"files": 16,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"metrix.lua"
+]
+},
+{
+"name": "metronome",
+"url": "https://github.com/adamstaff/metronome",
+"tags": [
+"norns",
+"midi",
+"nb",
+"grid"
+],
+"description": "bing, buk, buk, buk",
+"truncated": false,
+"bytes": 13694,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"metronome.lua"
+]
+},
+{
+"name": "midi-monitor",
+"url": "https://github.com/okyeron/midi-monitor.git",
+"tags": [
+"utility",
+"midi"
+],
+"description": "A MIDI monitor for norns",
+"truncated": false,
+"bytes": 8588,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"midi-monitor.lua"
+]
+},
+{
+"name": "midarto",
+"url": "https://github.com/mrglennjones/midarto",
+"tags": [
+"grid",
+"midi",
+"sequencer",
+"nb"
+],
+"description": "two-deck MIDI file DJ: mix .mid files with a crossfader to General MIDI modules or nb voices, with a full 16x8 grid controller",
+"truncated": false,
+"bytes": 12352518,
+"files": 28,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"midarto.lua"
+]
+},
+{
+"name": "midi-review",
+"url": "https://github.com/niksilver/midi-review",
+"tags": [
+"utility",
+"midi"
+],
+"description": "Simple visualisation, recording and playback of MIDI notes",
+"truncated": false,
+"bytes": 207389,
+"files": 14,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"midi-review.lua"
+]
+},
+{
+"name": "midididi",
+"url": "https://github.com/dwtong/midididi",
+"tags": [
+"looper",
+"midi",
+"mod"
+],
+"description": "midi cc looper mod",
+"truncated": false,
+"bytes": 8349,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"midididi.lua"
+]
+},
+{
+"name": "midigrid",
+"url": "https://github.com/jaggednz/midigrid",
+"tags": [
+"utility",
+"midi",
+"mod"
+],
+"description": "Use launchpads and other midi grid devices w/ Norns",
+"truncated": false,
+"bytes": 157434,
+"files": 45,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": []
+},
+{
+"name": "midiplayer",
+"url": "https://github.com/sonocircuit/midiplayer",
+"tags": [
+"midi"
+],
+"description": "midi file playback for norns",
+"truncated": false,
+"bytes": 20493,
+"files": 6,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"midiplayer.lua"
+]
+},
+{
+"name": "mlr",
+"url": "https://github.com/tehn/mlr",
+"tags": [
+"sequencer",
+"sampler",
+"looper",
+"delay",
+"grid"
+],
+"description": "live sample-cutting platform",
+"truncated": false,
+"bytes": 28149,
+"files": 1,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"mlr.lua"
+]
+},
+{
+"name": "mlre",
+"url": "https://github.com/sonocircuit/mlre",
+"tags": [
+"sequencer",
+"sampler",
+"looper",
+"delay",
+"grid",
+"arc",
+"crow"
+],
+"description": "extended version of mlr",
+"truncated": false,
+"bytes": 4854561,
+"files": 11,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"mlre.lua"
+]
+},
+{
+"name": "molly_the_poly",
+"url": "https://github.com/markwheeler/molly_the_poly",
+"tags": [
+"synth",
+"grid",
+"midi"
+],
+"description": "classic polysynth with solar system patch creator",
+"truncated": false,
+"bytes": 80506,
+"files": 4,
+"sc": [
+"lib/Engine_MollyThePoly.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"molly_the_poly.lua"
+]
+},
+{
+"name": "moln",
+"url": "https://github.com/antonhornquist/moln",
+"tags": [
+"synth"
+],
+"description": "polyphonic subtractive synthesizer",
+"truncated": false,
+"bytes": 148836,
+"files": 8,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"moln.lua"
+]
+},
+{
+"name": "monitor",
+"url": "https://github.com/neauoire/monitor",
+"tags": [
+"utility",
+"midi"
+],
+"description": "small kit of midi utilities to transpose and route midi messages",
+"truncated": false,
+"bytes": 19129,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"monitor.lua",
+"sequencer.lua"
+]
+},
+{
+"name": "moonraker",
+"url": "https://github.com/schollz/moonraker",
+"tags": [
+"drum",
+"grid"
+],
+"description": "explore a galaxy of rhythm",
+"truncated": false,
+"bytes": 71083,
+"files": 9,
+"sc": [
+"lib/Engine_Moonraker.sc"
+],
+"binaries": [
+"lib/cjson.so"
+],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"moonraker.lua"
+]
+},
+{
+"name": "mosaic",
+"url": "https://github.com/subvertnormality/mosaic",
+"tags": [
+"sequencer",
+"midi",
+"generative",
+"grid",
+"nb",
+"crow",
+"keyboard"
+],
+"description": "enabling you to craft complex rhythms and harmonies effortlessly",
+"truncated": false,
+"bytes": 25302286,
+"files": 1209,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": true,
+"lua_top": [
+"mosaic.lua"
+]
+},
+{
+"name": "mouse",
+"url": "https://github.com/cfdrake/mouse",
+"tags": [
+"sequencer",
+"mouse",
+"keyboard",
+"grid"
+],
+"description": "sound maker and sequencer heavily inspired by Laurie Spiegel's Music Mouse",
+"truncated": false,
+"bytes": 30641,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"mouse.lua"
+]
+},
+{
+"name": "mx.samples",
+"url": "https://github.com/schollz/mx.samples",
+"tags": [
+"synth",
+"midi"
+],
+"description": "like mr.radar or mr.coffee but for samples",
+"error": "{\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/git/tre"
+},
+{
+"name": "mx.synths",
+"url": "https://github.com/schollz/mx.synths",
+"tags": [
+"synth",
+"midi"
+],
+"description": "like mr.radar or mr.coffee but for synths",
+"error": "{\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/git/tre"
+},
+{
+"name": "n16o",
+"url": "https://github.com/jlmitch5/n16o",
+"tags": [
+"utility"
+],
+"description": "i2c-based ER-301 control via KORG nanoKONTROL2",
+"truncated": false,
+"bytes": 6070,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"n16o.lua"
+]
+},
+{
+"name": "narf",
+"url": "https://github.com/rync/NARF",
+"tags": [
+"sequencer",
+"midi"
+],
+"description": "quad sequential midi source with fractional durations",
+"truncated": false,
+"bytes": 174105,
+"files": 6,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"narf.lua"
+]
+},
+{
+"name": "nb_drumcrow",
+"url": "https://github.com/entzmingerc/nb_drumcrow",
+"tags": [
+"mod",
+"synth",
+"crow",
+"drum",
+"nb"
+],
+"description": "norns mod that turns crow into a synth using nb",
+"truncated": false,
+"bytes": 1992364,
+"files": 13,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": []
+},
+{
+"name": "nb_mxsynths",
+"url": "https://github.com/sonocircuit/nb_mxsynths",
+"tags": [
+"mod",
+"synth",
+"nb"
+],
+"description": "mx.synths as an nb player",
+"truncated": false,
+"bytes": 50624,
+"files": 15,
+"sc": [
+"lib/nb_mxsynths.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": []
+},
+{
+"name": "nb_plyprc",
+"url": "https://github.com/sonocircuit/nb_plyprc",
+"tags": [
+"mod",
+"synth",
+"nb"
+],
+"description": "a norns classic as nb player",
+"truncated": false,
+"bytes": 11311,
+"files": 3,
+"sc": [
+"lib/nb_plyprc.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": []
+},
+{
+"name": "nb_smpKit",
+"url": "https://github.com/sonocircuit/nb_smpKit",
+"tags": [
+"mod",
+"sampler",
+"nb"
+],
+"description": "sample playback as an nb player",
+"truncated": false,
+"bytes": 41452,
+"files": 4,
+"sc": [
+"lib/nb_smpkit.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": []
+},
+{
+"name": "nice-tapes",
+"url": "https://github.com/MentalSandal/nice-tapes",
+"tags": [
+"mod"
+],
+"description": "a norns mod for customised tape names",
+"truncated": false,
+"bytes": 22609,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": []
+},
+{
+"name": "nisp",
+"url": "https://github.com/itsyourbedtime/NISP",
+"tags": [
+"sequencer",
+"tracker"
+],
+"description": "scheme dialect livecoding tracker for norns",
+"truncated": false,
+"bytes": 45800,
+"files": 12,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"NISP.lua"
+]
+},
+{
+"name": "n.kria",
+"url": "https://github.com/zjb-s/n.kria",
+"tags": [
+"sequencer",
+"grid",
+"midi",
+"nb"
+],
+"description": "native norns Kria",
+"error": "{\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/git/tre"
+},
+{
+"name": "nmMelodyMagic",
+"url": "https://github.com/TuesdayNightMachines/nmMelodyMagic",
+"tags": [
+"sequencer",
+"midi"
+],
+"description": "a port of ken stone's infinite melody and modulo magic cgs serge modules",
+"truncated": false,
+"bytes": 97960,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"nmMelodyMagic.lua"
+]
+},
+{
+"name": "nmQuadroDubber",
+"url": "https://github.com/TuesdayNightMachines/nmQuadroDubber",
+"tags": [
+"delay",
+"looper"
+],
+"description": "overdub external audio onto four tape loops",
+"truncated": false,
+"bytes": 15686,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"nmQuadroDubber.lua"
+]
+},
+{
+"name": "nmRain",
+"url": "https://github.com/TuesdayNightMachines/nmRain",
+"tags": [
+"delay"
+],
+"description": "a weird stereo delay effect for external audio",
+"truncated": false,
+"bytes": 9738,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"nmRain.lua"
+]
+},
+{
+"name": "nmSmartyPants",
+"url": "https://github.com/TuesdayNightMachines/nmSmartyPants",
+"tags": [
+"delay",
+"looper",
+"granulator"
+],
+"description": "deform external audio with math and impress your nerd friends",
+"truncated": false,
+"bytes": 12652,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"nmSmartyPants.lua"
+]
+},
+{
+"name": "n\u00f8rg\u00e5rd",
+"url": "https://github.com/frederickk/noergaard",
+"tags": [
+"sequencer",
+"generative",
+"midi"
+],
+"description": "A small library to generate N\u00f8rg\u00e5rd infinity sequences for Norns",
+"truncated": false,
+"bytes": 42105,
+"files": 12,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"noergaard-chords.lua",
+"noergaard-sequencer.lua",
+"noergaard-simple.lua"
+]
+},
+{
+"name": "norman",
+"url": "https://github.com/crimclark/norman",
+"tags": [
+"utility"
+],
+"description": "simple audio utility",
+"truncated": false,
+"bytes": 5409,
+"files": 1,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"norman.lua"
+]
+},
+{
+"name": "nornsfetch",
+"url": "https://github.com/tapecanvas/nornsfetch",
+"tags": [
+"art",
+"utility"
+],
+"description": "neofetch style system info for norns",
+"truncated": false,
+"bytes": 50554,
+"files": 7,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"nornsfetch.lua"
+]
+},
+{
+"name": "norns.online",
+"url": "https://github.com/schollz/norns.online",
+"tags": [
+"utility"
+],
+"description": "remotely control norns from the browser",
+"truncated": false,
+"bytes": 16717496,
+"files": 494,
+"sc": [
+"sc/core/Crone.sc",
+"sc/core/CroneAudioContext.sc",
+"sc/core/CroneDefs.sc",
+"sc/core/CroneEffects.sc",
+"sc/core/CroneEngine.sc",
+"sc/core/CronePoll.sc",
+"sc/core/CroneTester.sc",
+"sc/engines/AudioTaper.sc",
+"sc/engines/BufUtil.sc",
+"sc/engines/CroneGenEngine.sc",
+"sc/engines/Engine_PolyPerc.sc",
+"sc/engines/Engine_PolySub.sc",
+"sc/engines/Engine_SimplePassThru.sc",
+"sc/engines/Engine_TestSine.sc",
+"sc/engines/PatchMatrix.sc",
+"sc/norns-config.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": true,
+"lua_top": [
+"matronrc.lua"
+]
+},
+{
+"name": "nc01-drone",
+"url": "https://github.com/monome-community/nc01-drone",
+"tags": [
+"art"
+],
+"description": "norns/circle/01 drone in three worlds",
+"truncated": false,
+"bytes": 126650615,
+"files": 26,
+"sc": [],
+"binaries": [],
+"audio": 3,
+"audio_bytes": 123833848,
+"submodules": false,
+"lua_top": [
+"chambers.lua",
+"eclipse.lua",
+"interpoint.lua",
+"nimbea.lua",
+"planetary.lua",
+"relentlessdays.lua",
+"scanner.lua",
+"seeker.lua",
+"three-eyes.lua",
+"vorpal.lua",
+"wrlds.lua"
+]
+},
+{
+"name": "nc02-rs",
+"url": "https://github.com/monome-community/nc02-rs",
+"tags": [
+"art"
+],
+"description": "norns/circle/02 rhythm and sound",
+"truncated": false,
+"bytes": 9672396,
+"files": 9,
+"sc": [],
+"binaries": [],
+"audio": 4,
+"audio_bytes": 7681078,
+"submodules": false,
+"lua_top": [
+"adventure.lua",
+"dotty.lua",
+"innominate.lua"
+]
+},
+{
+"name": "nc03-ds",
+"url": "https://github.com/monome-community/nc03-ds",
+"tags": [
+"art"
+],
+"description": "norns/circle/03 dressed in sequins",
+"truncated": false,
+"bytes": 7319226,
+"files": 79,
+"sc": [],
+"binaries": [],
+"audio": 63,
+"audio_bytes": 7202974,
+"submodules": false,
+"lua_top": [
+"gimbal.lua",
+"glimmerzz.lua",
+"scarlet.lua",
+"scattr.lua",
+"seabird.lua",
+"sequin_racer.lua",
+"wards.lua"
+]
+},
+{
+"name": "nydl",
+"url": "https://github.com/sixolet/nydl",
+"tags": [
+"delay",
+"looper",
+"sequencer",
+"grid",
+"crow"
+],
+"description": "beat-synced looper, slicer, and sequencer",
+"truncated": false,
+"bytes": 426982,
+"files": 31,
+"sc": [
+"engine/Engine_NotYourDreamLooper.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"nydl.lua"
+]
+},
+{
+"name": "oblique",
+"url": "https://github.com/stvnrlly/oblique",
+"tags": [
+"mod"
+],
+"description": "a mod to insert oblique strategies into the params menu",
+"truncated": false,
+"bytes": 14838,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"strategies.lua"
+]
+},
+{
+"name": "o-o-o",
+"url": "https://github.com/schollz/o-o-o",
+"tags": [
+"sequencer",
+"synth"
+],
+"description": "connect-the-dots sequencer w/ fm synthesizer",
+"truncated": false,
+"bytes": 3414403,
+"files": 18,
+"sc": [
+"lib/Engine_Odashodasho.sc"
+],
+"binaries": [
+"lib/cjson.so"
+],
+"audio": 6,
+"audio_bytes": 3318104,
+"submodules": false,
+"lua_top": [
+"o-o-o.lua"
+]
+},
+{
+"name": "onehanded",
+"url": "https://github.com/mimetaur/onehanded",
+"tags": [
+"utility",
+"midi"
+],
+"description": "minimal manual controller script",
+"truncated": false,
+"bytes": 7382,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"onehanded.lua"
+]
+},
+{
+"name": "ong",
+"url": "https://github.com/dst78/ong",
+"tags": [
+"art"
+],
+"description": "ocean noise generator",
+"truncated": false,
+"bytes": 70536,
+"files": 11,
+"sc": [
+"engine/Engine_Ong.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"ong.lua"
+]
+},
+{
+"name": "oooooo",
+"url": "https://github.com/schollz/oooooo",
+"tags": [
+"looper",
+"delay",
+"grid"
+],
+"description": "digital tape loops, x 6",
+"truncated": false,
+"bytes": 167263,
+"files": 13,
+"sc": [
+"lib/Engine_SimpleDelay.sc",
+"lib/Engine_SimpleDelayKolor.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"oooooo.lua"
+]
+},
+{
+"name": "orbital",
+"url": "https://github.com/P1505/orbital",
+"tags": [
+"sequencer",
+"art"
+],
+"description": "orbital is an experiment in simple sequences and interface design",
+"truncated": false,
+"bytes": 43827,
+"files": 6,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"orbital.lua"
+]
+},
+{
+"name": "orca",
+"url": "https://github.com/itsyourbedtime/orca",
+"tags": [
+"sequencer",
+"tracker",
+"generative",
+"looper",
+"midi",
+"keyboard",
+"arc",
+"grid",
+"crow"
+],
+"description": "visual programming language, designed to create procedural sequencers on the fly",
+"truncated": false,
+"bytes": 2560617,
+"files": 143,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"orca.lua"
+]
+},
+{
+"name": "ortf",
+"url": "https://github.com/felart/ORTF",
+"tags": [
+"utility",
+"sampler",
+"midi"
+],
+"description": "Sort of Radio music clone where each audio file in tape folder is a station",
+"truncated": false,
+"bytes": 60542,
+"files": 6,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"ortf.lua"
+]
+},
+{
+"name": "otis",
+"url": "https://github.com/justmat/otis",
+"tags": [
+"delay",
+"looper",
+"sampler"
+],
+"description": "dual tape delay/looper/sampler",
+"truncated": false,
+"bytes": 523290,
+"files": 12,
+"sc": [
+"lib/Engine_Decimator.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"otis.lua"
+]
+},
+{
+"name": "overtones",
+"url": "https://github.com/TheTrackdriver/overtones",
+"tags": [
+"synth",
+"additive",
+"midi",
+"grid"
+],
+"description": "a synth based on additive synthesis",
+"truncated": false,
+"bytes": 899450,
+"files": 13,
+"sc": [
+"lib/Engine_Overtones.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"overtones.lua"
+]
+},
+{
+"name": "overwintering",
+"url": "https://github.com/markwheeler/overwintering",
+"tags": [
+"generative"
+],
+"description": "Bird migration patterns as sound",
+"truncated": false,
+"bytes": 8687458,
+"files": 24,
+"sc": [
+"lib/Engine_Oystercatcher.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"overwintering.lua"
+]
+},
+{
+"name": "p8",
+"url": "https://github.com/p3r7/p8",
+"tags": [
+"art"
+],
+"description": "run PICO-8 tweetcarts on norns",
+"truncated": false,
+"bytes": 63207,
+"files": 13,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"confetti.lua",
+"cube.lua",
+"ghosts.lua",
+"gravity.lua",
+"hypercube.lua",
+"manga_effect.lua",
+"pumpkin.lua",
+"tree.lua"
+]
+},
+{
+"name": "paracosms",
+"url": "https://github.com/schollz/paracosms",
+"tags": [
+"sequencer",
+"tracker",
+"sampler",
+"keyboard",
+"grid",
+"crow"
+],
+"description": "sampler + tracker to construct imaginary worlds",
+"truncated": false,
+"bytes": 6433,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"paracosms.lua"
+]
+},
+{
+"name": "paranibbles",
+"url": "https://github.com/xmacex/paranibbles",
+"tags": [
+"midi",
+"sequencer",
+"norns"
+],
+"description": "paranibbles for paradiddles",
+"truncated": false,
+"bytes": 1411209,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"paranibbles.lua"
+]
+},
+{
+"name": "parrot",
+"url": "https://github.com/jaseknighter/parrot",
+"tags": [
+"crow"
+],
+"description": "cv recorder and player for norns+crow",
+"truncated": false,
+"bytes": 101325,
+"files": 23,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"parrot.lua"
+]
+},
+{
+"name": "passersby",
+"url": "https://github.com/markwheeler/passersby",
+"tags": [
+"synth",
+"midi",
+"grid"
+],
+"description": "west coast style mono synth",
+"truncated": false,
+"bytes": 91151,
+"files": 4,
+"sc": [
+"lib/Engine_Passersby.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"passersby.lua"
+]
+},
+{
+"name": "passthrough",
+"url": "https://github.com/nattog/passthrough",
+"tags": [
+"utility",
+"mod",
+"midi"
+],
+"description": "midi passthrough library with examples",
+"truncated": false,
+"bytes": 363444,
+"files": 8,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"example_lib.lua",
+"example_mod.lua"
+]
+},
+{
+"name": "patchwork",
+"url": "https://github.com/oliviercreurer/patchwork",
+"tags": [
+"sequencer",
+"grid",
+"crow"
+],
+"description": "dual function sequencer for monome norns, crow and grid",
+"truncated": false,
+"bytes": 20178,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"patchwork.lua"
+]
+},
+{
+"name": "path-trace",
+"url": "https://github.com/brokyo/path-trace",
+"tags": [
+"crow",
+"utility"
+],
+"description": "A movement recorder for norns and crow",
+"truncated": false,
+"bytes": 20489,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"path-trace.lua"
+]
+},
+{
+"name": "pedalboard",
+"url": "https://github.com/21echoes/pedalboard",
+"tags": [
+"audio_fx",
+"crow",
+"arc"
+],
+"description": "chainable effects for live performance",
+"truncated": false,
+"bytes": 268526,
+"files": 73,
+"sc": [
+"lib/Engine_Pedalboard.sc",
+"lib/fx/AmpSimulator.sc",
+"lib/fx/AutoWah.sc",
+"lib/fx/Bitcrusher.sc",
+"lib/fx/Chorus.sc",
+"lib/fx/Clouds.sc",
+"lib/fx/Compressor.sc",
+"lib/fx/Delay.sc",
+"lib/fx/Distortion.sc",
+"lib/fx/Equalizer.sc",
+"lib/fx/Flanger.sc",
+"lib/fx/LoFi.sc",
+"lib/fx/Overdrive.sc",
+"lib/fx/Pedal.sc",
+"lib/fx/Phaser.sc",
+"lib/fx/PitchShifter.sc",
+"lib/fx/Reverb.sc",
+"lib/fx/RingModulator.sc",
+"lib/fx/Rings.sc",
+"lib/fx/SubBoost.sc",
+"lib/fx/Sustain.sc",
+"lib/fx/Tremolo.sc",
+"lib/fx/Tuner.sc",
+"lib/fx/Vibrato.sc",
+"lib/fx/Wavefolder.sc",
+"lib/fx/third_party/SmoothClip.sc",
+"lib/fx/third_party/SmoothFold.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"pedalboard.lua"
+]
+},
+{
+"name": "phonotype",
+"url": "https://github.com/sixolet/phonotype",
+"tags": [
+"generative",
+"keyboard",
+"midi"
+],
+"description": "livecoding environment",
+"truncated": false,
+"bytes": 160346,
+"files": 17,
+"sc": [
+"engine/Engine_Phonotype.sc",
+"engine/allocator_countfree.sc",
+"engine/buffers.sc",
+"engine/busses.sc",
+"engine/dbg.sc",
+"engine/notes.sc",
+"engine/ops.sc",
+"engine/phonotype.sc",
+"engine/poly.sc",
+"engine/rhythm.sc",
+"engine/test_phonotype.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"phonotype.lua"
+]
+},
+{
+"name": "phyllis",
+"url": "https://github.com/justmat/phyllis",
+"tags": [
+"audio_fx"
+],
+"description": "a digitally modeled analog filter",
+"truncated": false,
+"bytes": 9501,
+"files": 4,
+"sc": [
+"lib/Engine_Phyllis.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"phyllis.lua"
+]
+},
+{
+"name": "pitter-patter",
+"url": "https://github.com/schollz/pitter-patter",
+"tags": [
+"sequencer",
+"sampler",
+"midi",
+"grid",
+"looper"
+],
+"description": "sequencer and sampler player based around the OP-1 'pattern' sequencer",
+"truncated": false,
+"bytes": 21439491,
+"files": 58,
+"sc": [
+"lib/Engine_MxSamplez.sc",
+"lib/MxSamplez.sc",
+"lib/MxSamplezInstrument.sc"
+],
+"binaries": [
+"lib/cjson.so"
+],
+"audio": 45,
+"audio_bytes": 21337758,
+"submodules": true,
+"lua_top": [
+"pitter-patter.lua"
+]
+},
+{
+"name": "pirate-radio",
+"url": "https://github.com/norns-study-group/pirate-radio",
+"tags": [
+"utility",
+"art",
+"16n"
+],
+"description": "community radio for monome norns...yar",
+"truncated": false,
+"bytes": 1478303,
+"files": 239,
+"sc": [
+"supercollider/classes/Engine_PirateRadio.sc",
+"supercollider/classes/MP3.sc",
+"supercollider/classes/PirateRadio.sc"
+],
+"binaries": [
+"lib/cjson.so"
+],
+"audio": 1,
+"audio_bytes": 574633,
+"submodules": false,
+"lua_top": [
+"pirate-radio.lua"
+]
+},
+{
+"name": "pit-orchisstra",
+"url": "https://github.com/entzmingerc/pit-orchisstra",
+"tags": [
+"generative",
+"grid",
+"happyaccident",
+"keyboard",
+"nb",
+"sequencer"
+],
+"description": "snake game inspired sequencer for norns",
+"truncated": false,
+"bytes": 622420,
+"files": 10,
+"sc": [
+"lib/engine_rudimentssnek.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"pit-orchisstra.lua"
+]
+},
+{
+"name": "pitfalls",
+"url": "https://github.com/robmckinnon/pitfalls",
+"tags": [
+"synth",
+"utility",
+"midi",
+"grid"
+],
+"description": "microtonal scale explorer / arpeggiator / grid keyboard",
+"truncated": false,
+"bytes": 232445,
+"files": 24,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"pitfalls.lua"
+]
+},
+{
+"name": "piwip",
+"url": "https://github.com/schollz/piwip",
+"tags": [
+"looper",
+"sampler"
+],
+"description": "a sampler that works in realtime",
+"truncated": false,
+"bytes": 37738,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"piwip.lua"
+]
+},
+{
+"name": "pixels",
+"url": "https://github.com/distropolis/pixels",
+"tags": [
+"sequencer",
+"generative",
+"synth",
+"art",
+"midi"
+],
+"description": "generative visual sequencer instrument",
+"truncated": false,
+"bytes": 202565,
+"files": 10,
+"sc": [
+"lib/Engine_Pixelbangs.sc",
+"lib/OneshVoicer.sc",
+"lib/bgs.sc",
+"lib/thebgs.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"pixels.lua"
+]
+},
+{
+"name": "plasma",
+"url": "https://github.com/tehn/plasma",
+"tags": [
+"art",
+"grid"
+],
+"description": "function animator",
+"truncated": false,
+"bytes": 4442,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"plasma.lua"
+]
+},
+{
+"name": "plonky",
+"url": "https://github.com/schollz/plonky",
+"tags": [
+"sequencer",
+"keyboard",
+"grid"
+],
+"description": "string-like keyboard and sequencer",
+"truncated": false,
+"bytes": 96678,
+"files": 7,
+"sc": [],
+"binaries": [
+"lib/cjson.so"
+],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"plonky.lua"
+]
+},
+{
+"name": "pools",
+"url": "https://github.com/justmat/pools",
+"tags": [
+"audio_fx"
+],
+"description": "a shimmery reverb",
+"truncated": false,
+"bytes": 69462,
+"files": 8,
+"sc": [
+"lib/Engine_Pools.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"pools.lua"
+]
+},
+{
+"name": "ppm_norns",
+"url": "https://github.com/loudnumbers/ppm_norns",
+"tags": [
+"art",
+"drone",
+"crow"
+],
+"description": "parts per million",
+"truncated": false,
+"bytes": 352723,
+"files": 8,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"ppm_norns.lua"
+]
+},
+{
+"name": "punchcard",
+"url": "https://github.com/neauoire/punchcard",
+"tags": [
+"sequencer",
+"grid"
+],
+"description": "an experimental sequencer that works a bit like the classic punchcard computer",
+"truncated": false,
+"bytes": 86508,
+"files": 8,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"punchcard.lua"
+]
+},
+{
+"name": "qfwfq",
+"url": "https://github.com/cachilders/qfwfq",
+"tags": [
+"sequencer",
+"generative",
+"midi"
+],
+"description": "A brute-force password hack inspired sequencer.",
+"truncated": false,
+"bytes": 31941,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"qfwfq.lua"
+]
+},
+{
+"name": "quence",
+"url": "https://github.com/millxing/QUENCE",
+"tags": [
+"sequencer",
+"generative",
+"grid",
+"crow",
+"midi"
+],
+"description": "probabilistic 4-track sequencer",
+"truncated": false,
+"bytes": 323557,
+"files": 7,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"quence.lua"
+]
+},
+{
+"name": "rachim",
+"url": "https://github.com/schollz/rachim",
+"tags": [
+"generative",
+"sequencer",
+"drone"
+],
+"description": "a five-piece orchestra sequence synthesizer",
+"truncated": false,
+"bytes": 34015,
+"files": 10,
+"sc": [
+"lib/Engine_Rachim.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"rachim.lua"
+]
+},
+{
+"name": "raft",
+"url": "https://github.com/timothy-taylor/raft",
+"tags": [
+"delay",
+"audio_fx"
+],
+"description": "a scene-setting, softcut-based modulated delay and noise generator",
+"truncated": false,
+"bytes": 13366,
+"files": 8,
+"sc": [
+"Engine_Ocean.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"raft.lua"
+]
+},
+{
+"name": "randomizer_typhon",
+"url": "https://github.com/danut007ro/randomizer_typhon",
+"tags": [
+"utility"
+],
+"description": "Randomizer for Dreadbox Typhon",
+"truncated": false,
+"bytes": 42952,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"randomizer_typhon.lua"
+]
+},
+{
+"name": "rangl",
+"url": "https://github.com/tgk/rangl",
+"tags": [
+"sampler",
+"granulator",
+"arc"
+],
+"description": "arc based granular four track sampler with live recording and friction.",
+"truncated": false,
+"bytes": 8405,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"rangl.lua"
+]
+},
+{
+"name": "reels",
+"url": "https://github.com/itsyourbedtime/reels",
+"tags": [
+"looper",
+"delay"
+],
+"description": "a 4-track asynchronous looper, inspired by op-1 tape recorder and mannequins w/ eurorack module.",
+"truncated": false,
+"bytes": 29907,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"reels.lua"
+]
+},
+{
+"name": "r",
+"url": "https://github.com/antonhornquist/r",
+"tags": [
+"lib"
+],
+"description": "general purpose audio patching engine",
+"truncated": false,
+"bytes": 397618,
+"files": 26,
+"sc": [
+"lib/Engine_R.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": []
+},
+{
+"name": "rebound",
+"url": "https://github.com/nf/rebound",
+"tags": [
+"sequencer"
+],
+"description": "a kinetic sequencer",
+"truncated": false,
+"bytes": 6673,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"rebound.lua"
+]
+},
+{
+"name": "repeater",
+"url": "https://github.com/spoitras/repeater",
+"tags": [
+"delay",
+"looper",
+"texture",
+"engine"
+],
+"description": "textural delay orchestra with multiple tempo-synced lines. port of the original by Bryant Smith.",
+"truncated": false,
+"bytes": 16201,
+"files": 6,
+"sc": [
+"lib/Engine_Repeater.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"repeater.lua"
+]
+},
+{
+"name": "repl-looper",
+"url": "https://github.com/awwaiid/repl-looper",
+"tags": [
+"sequencer",
+"looper",
+"grid",
+"keyboard"
+],
+"description": "mash of REPL and looper; a live performance code sequencer",
+"truncated": false,
+"bytes": 1107961,
+"files": 41,
+"sc": [
+"lib/Engine_ReplLooper.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"repl-looper.lua"
+]
+},
+{
+"name": "rpmate",
+"url": "https://github.com/p3r7/rpmate",
+"tags": [
+"utility",
+"sampler"
+],
+"description": "record a sound an play it back at various RPM ratios",
+"truncated": false,
+"bytes": 169784,
+"files": 32,
+"sc": [
+"lib/Engine_TimberEq.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"rpmate.lua"
+]
+},
+{
+"name": "ribbons",
+"url": "https://github.com/tehn/ribbons",
+"tags": [
+"sequencer",
+"arc"
+],
+"description": "folded euclidean arpeggiator",
+"truncated": false,
+"bytes": 8373,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"ribbons.lua"
+]
+},
+{
+"name": "rudiments",
+"url": "https://github.com/cfdrake/rudiments",
+"tags": [
+"sequencer",
+"drum"
+],
+"description": "an 8 voice lofi percussion synthesizer and sequencer",
+"truncated": false,
+"bytes": 82909,
+"files": 4,
+"sc": [
+"lib/engine_rudiments.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"rudiments.lua"
+]
+},
+{
+"name": "sam",
+"url": "https://github.com/justmat/sam",
+"tags": [
+"sampler",
+"utility"
+],
+"description": "a simple sample recorder/slicer",
+"truncated": false,
+"bytes": 6297,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"sam.lua"
+]
+},
+{
+"name": "sampswap",
+"url": "https://github.com/schollz/sampswap",
+"tags": [
+"sampler"
+],
+"description": "swap samples within loops",
+"truncated": false,
+"bytes": 106283,
+"files": 13,
+"sc": [
+"lib/Engine_Sampswap.sc"
+],
+"binaries": [
+"lib/cjson.so"
+],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"sampswap.lua"
+]
+},
+{
+"name": "samsara",
+"url": "https://github.com/21echoes/samsara",
+"tags": [
+"looper",
+"delay"
+],
+"description": "a minimalist clock-synced looper",
+"truncated": false,
+"bytes": 39854,
+"files": 7,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"samsara.lua"
+]
+},
+{
+"name": "sath-lemon",
+"url": "https://github.com/DesioArt/sath-lemon",
+"tags": [
+"looper",
+"grid",
+"softcut",
+"live"
+],
+"description": "4 voice live looper with dynamic loop control and grid visualization",
+"truncated": false,
+"bytes": 125173,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"Sath_lemon.lua"
+]
+},
+{
+"name": "schicksalslied",
+"url": "https://github.com/williamthazard/schicksalslied",
+"tags": [
+"generative",
+"synth",
+"art",
+"sequencer",
+"keyboard",
+"grid",
+"crow",
+"jf",
+"w/"
+],
+"description": "a poetry sequencer",
+"truncated": false,
+"bytes": 87609,
+"files": 9,
+"sc": [
+"ignore/FormantTriPTR.sc",
+"lib/Engine_LiedMotor.sc"
+],
+"binaries": [
+"ignore/FormantTriPTR_scsynth.so"
+],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"schicksalslied.lua"
+]
+},
+{
+"name": "scholastic",
+"url": "https://github.com/adamstaff/scholastic",
+"tags": [
+"norns",
+"sequencer",
+"nb",
+"midi"
+],
+"description": "multitrack polyrhythmic sequencer",
+"truncated": false,
+"bytes": 73405,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"scholastic.lua"
+]
+},
+{
+"name": "scryingstone",
+"url": "https://github.com/williamthazard/scryingstone",
+"tags": [
+"norns",
+"noise",
+"art",
+"drone"
+],
+"description": "scrying stone for monome norns",
+"truncated": false,
+"bytes": 3213437,
+"files": 4,
+"sc": [
+"lib/Engine_scryingstone.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"scryingstone.lua"
+]
+},
+{
+"name": "seaflex",
+"url": "https://github.com/lylepmills/seaflex",
+"tags": [
+"utility",
+"grid"
+],
+"description": "companion app for earthsea",
+"truncated": false,
+"bytes": 56091,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"seaflex.lua"
+]
+},
+{
+"name": "seeker_ii",
+"url": "https://github.com/brokyo/seeker_ii",
+"tags": [
+"grid",
+"arc",
+"midi",
+"osc",
+"crow"
+],
+"description": "compositional interface for music, voltage, and video",
+"truncated": false,
+"bytes": 1576714,
+"files": 137,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"seeker_ii.lua"
+]
+},
+{
+"name": "semiconductor",
+"url": "https://github.com/jaseknighter/semiconductor",
+"tags": [
+"mod",
+"utility"
+],
+"description": "norns ensemble mod",
+"error": "{\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/git/tre"
+},
+{
+"name": "sempra",
+"url": "https://github.com/zjb-s/sempra",
+"tags": [
+"sequencer",
+"grid",
+"crow"
+],
+"description": "continuous dynamic melody sequencer for 16n+grid",
+"truncated": false,
+"bytes": 35322,
+"files": 9,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"sempra.lua"
+]
+},
+{
+"name": "sidvagn",
+"url": "https://github.com/sonocircuit/sidvagn",
+"tags": [
+"keyboard",
+"sequencer",
+"grid",
+"mod",
+"nb"
+],
+"description": "a creative canvas for a sidecar grid",
+"truncated": false,
+"bytes": 836666,
+"files": 7,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": []
+},
+{
+"name": "silos",
+"url": "https://github.com/justmat/silos",
+"tags": [
+"granulator",
+"audio_fx",
+"keyboard",
+"grid",
+"arc"
+],
+"description": "live grains",
+"truncated": false,
+"bytes": 318278,
+"files": 16,
+"sc": [
+"lib/Engine_Thresher.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"silos.lua"
+]
+},
+{
+"name": "sines",
+"url": "https://github.com/aidanreilly/sines",
+"tags": [
+"synth",
+"drone",
+"16n",
+"midi"
+],
+"description": "16 sine waves",
+"truncated": false,
+"bytes": 60504,
+"files": 9,
+"sc": [
+"lib/sines_engine.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"sines.lua"
+]
+},
+{
+"name": "shapes",
+"url": "https://github.com/tlubke/shapes",
+"tags": [
+"utility"
+],
+"description": "visuals-based modulation source for crow and midi",
+"truncated": false,
+"bytes": 26392,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"shapes.lua"
+]
+},
+{
+"name": "shfts",
+"url": "https://github.com/rwhaling/shfts",
+"tags": [
+"sequencer",
+"crow",
+"grid"
+],
+"description": "random sequencer for norns, crow, and grid",
+"truncated": false,
+"bytes": 40804,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"shfts.lua"
+]
+},
+{
+"name": "shnthsalslied",
+"url": "https://github.com/williamthazard/shnthsalslied",
+"tags": [
+"generative",
+"synth",
+"art",
+"sequencer",
+"keyboard",
+"grid",
+"crow",
+"jf",
+"w/"
+],
+"description": "fork of schicksalslied for use with shbobo shnth",
+"truncated": false,
+"bytes": 48883,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"shnthsalslied.lua"
+]
+},
+{
+"name": "showers",
+"url": "https://github.com/justmat/showers",
+"tags": [
+"art"
+],
+"description": "a thunderstorm for norns",
+"truncated": false,
+"bytes": 20076,
+"files": 4,
+"sc": [
+"Engine_Showers.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"showers.lua"
+]
+},
+{
+"name": "skylines",
+"url": "https://github.com/unit-cell/skylines",
+"tags": [
+"sequencer"
+],
+"description": "a sequencer inspired on the M185/Intellijel Metropolis",
+"truncated": false,
+"bytes": 1100349,
+"files": 40,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"skylines.lua"
+]
+},
+{
+"name": "smash",
+"url": "https://github.com/ryanlaws/SMASH",
+"tags": [
+"sequencer",
+"drum"
+],
+"description": "sequencer for apes",
+"truncated": false,
+"bytes": 383244,
+"files": 8,
+"sc": [
+"lib/Engine_StereoLpg.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"smash.lua"
+]
+},
+{
+"name": "spirals",
+"url": "https://github.com/tomwaters/spirals",
+"tags": [
+"generative",
+"sequencer",
+"grid",
+"midi"
+],
+"description": "sequencer",
+"truncated": false,
+"bytes": 28559,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"spirals.lua"
+]
+},
+{
+"name": "splicer",
+"url": "https://github.com/northern-information/splicer",
+"tags": [
+"eduscript"
+],
+"description": "an eduscript for sequins and lattice",
+"truncated": false,
+"bytes": 4850,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"splicer.lua"
+]
+},
+{
+"name": "splnkr",
+"url": "https://github.com/jaseknighter/splnkr",
+"tags": [
+"sequencer",
+"audio_fx",
+"sampler",
+"jf",
+"crow",
+"grid"
+],
+"description": "an amplitude and frequency tracking effects processor/sampler/sequencer",
+"truncated": false,
+"bytes": 27379352,
+"files": 97,
+"sc": [
+"lib/Engine_Splnkr.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"splnkr.lua"
+]
+},
+{
+"name": "stack",
+"url": "https://github.com/cfdrake/stack",
+"tags": [
+"audio_fx"
+],
+"description": "a stack of 8 fixed-frequency resonant bandpass filters",
+"truncated": false,
+"bytes": 6721,
+"files": 3,
+"sc": [
+"lib/Engine_Stack.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"stack.lua"
+]
+},
+{
+"name": "step",
+"url": "https://github.com/antonhornquist/step",
+"tags": [
+"sampler",
+"sequencer"
+],
+"description": "a simple step sequencer",
+"truncated": false,
+"bytes": 52792,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"step.lua"
+]
+},
+{
+"name": "stj\u00f6rnu\u00ed\u00fer\u00f3tt",
+"url": "https://github.com/frederickk/stjoernuithrott",
+"tags": [
+"synth",
+"drone",
+"midi"
+],
+"description": "drone inspired by Moffenzeef Stargazer",
+"truncated": false,
+"bytes": 105267,
+"files": 31,
+"sc": [
+"lib/Engine_SCgazer.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"stjoernuithrott.lua"
+]
+},
+{
+"name": "streams",
+"url": "https://github.com/sonocircuit/streams",
+"tags": [
+"sequencer",
+"grid",
+"crow",
+"midi"
+],
+"description": "a multi play head sequencer",
+"truncated": false,
+"bytes": 595910,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"streams.lua"
+]
+},
+{
+"name": "strides",
+"url": "https://github.com/notjustmat/strides",
+"tags": [
+"sampler",
+"sequencer",
+"grid",
+"midi"
+],
+"description": "a collection of pattern recorders",
+"truncated": false,
+"bytes": 163451,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"strides.lua"
+]
+},
+{
+"name": "strum",
+"url": "https://github.com/carvingCode/strum",
+"tags": [
+"sequencer",
+"grid"
+],
+"description": "a plucky little pattern sequencer",
+"truncated": false,
+"bytes": 36272,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"strum_kr.lua",
+"strum_pp.lua"
+]
+},
+{
+"name": "stwnsh",
+"url": "https://github.com/sonocircuit/stwnsh",
+"tags": [
+"sampler",
+"delay",
+"grid",
+"arc"
+],
+"description": "a clocked, three-track stereo audio mangler",
+"truncated": false,
+"bytes": 1485791,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"stwnsh.lua"
+]
+},
+{
+"name": "supertonic",
+"url": "https://github.com/schollz/supertonic",
+"tags": [
+"generative",
+"drum"
+],
+"description": "an introspective drum machine",
+"truncated": false,
+"bytes": 8393396,
+"files": 32,
+"sc": [
+"lib/Engine_Supertonic.sc"
+],
+"binaries": [
+"lib/cjson.so"
+],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"supertonic.lua"
+]
+},
+{
+"name": "sway",
+"url": "https://github.com/carltesta/sway",
+"tags": [
+"generative",
+"audio_fx"
+],
+"description": "analysis-driven live audio processing",
+"truncated": false,
+"bytes": 39738,
+"files": 5,
+"sc": [
+"lib/Engine_Sway.sc",
+"lib/Norns_Sway.sc",
+"lib/Singleton.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"sway.lua"
+]
+},
+{
+"name": "sweet bees",
+"url": "https://github.com/icerigger/sweet-bees",
+"tags": [
+"looper"
+],
+"description": "asynchronous tape looper and reverb",
+"truncated": false,
+"bytes": 39176,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"sweet_bees.lua"
+]
+},
+{
+"name": "synthy",
+"url": "https://github.com/schollz/synthy",
+"tags": [
+"synth",
+"sequencer"
+],
+"description": "a synthesizer critter",
+"truncated": false,
+"bytes": 86864,
+"files": 11,
+"sc": [
+"lib/Engine_Synthy.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"synthy.lua"
+]
+},
+{
+"name": "takt",
+"url": "https://github.com/itsyourbedtime/takt",
+"tags": [],
+"description": "parameter locking step sequencer",
+"truncated": false,
+"bytes": 275006,
+"files": 11,
+"sc": [
+"lib/Engine_Timber_Takt.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"takt.lua"
+]
+},
+{
+"name": "tambla",
+"url": "https://github.com/ngwese/tambla.git",
+"tags": [
+"sequencer",
+"midi",
+"arc",
+"grid"
+],
+"description": "bending rhythmic arpeggio",
+"truncated": false,
+"bytes": 67588,
+"files": 12,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": true,
+"lua_top": [
+"tambla.lua"
+]
+},
+{
+"name": "tapedeck",
+"url": "https://github.com/schollz/tapedeck",
+"tags": [
+"audio_fx"
+],
+"description": "live tape deck emulation (saturation, distortion, wow/flutter)",
+"truncated": false,
+"bytes": 31107,
+"files": 6,
+"sc": [
+"lib/Engine_Tapedeck.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": true,
+"lua_top": [
+"tapedeck.lua"
+]
+},
+{
+"name": "tetra",
+"url": "https://github.com/nvillar/tetra",
+"tags": [
+"synth",
+"sequencer",
+"grid"
+],
+"description": "use the grid to create, perform and sequence sound objects",
+"truncated": false,
+"bytes": 92842,
+"files": 9,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": true,
+"lua_top": [
+"tetra.lua"
+]
+},
+{
+"name": "tetrabobo",
+"url": "https://github.com/williamthazard/TetraBobo",
+"tags": [
+"synth"
+],
+"description": "triangle wave organ with variable slope for norns & shbobo shnth",
+"truncated": false,
+"bytes": 11341,
+"files": 4,
+"sc": [
+"lib/Engine_Tetrabobo.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"tetrabobo.lua"
+]
+},
+{
+"name": "tetrabotis",
+"url": "https://github.com/williamthazard/Tetrabotis",
+"tags": [
+"synth"
+],
+"description": "tetrabobo + otis = tetrabotis",
+"truncated": false,
+"bytes": 50078,
+"files": 7,
+"sc": [
+"lib/Engine_Tetrabotis.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"tetrabotis.lua"
+]
+},
+{
+"name": "thebangs",
+"url": "https://github.com/catfact/thebangs.git",
+"tags": [
+"engine"
+],
+"description": "one-shot synthesis engine",
+"truncated": false,
+"bytes": 26878,
+"files": 9,
+"sc": [
+"lib/Engine_Thebangs.sc",
+"lib/OneshotVoicer.sc",
+"lib/bangs.sc",
+"lib/thebangs.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"awake_bangs.lua"
+]
+},
+{
+"name": "thirtythree",
+"url": "https://github.com/schollz/thirtythree",
+"tags": [
+"sequencer",
+"grid"
+],
+"description": "sample + sequencer + splicer in the style of po-33",
+"truncated": false,
+"bytes": 2781192,
+"files": 64,
+"sc": [
+"lib/Engine_Thirtythree.sc"
+],
+"binaries": [
+"lib/cjson.so"
+],
+"audio": 2,
+"audio_bytes": 2556600,
+"submodules": false,
+"lua_top": [
+"thirtythree.lua"
+]
+},
+{
+"name": "thorns",
+"url": "https://github.com/mpelath/thorns",
+"tags": [
+"norns",
+"grid",
+"midi",
+"sequencer",
+"generative"
+],
+"description": "fractal sequencer for norns + grid",
+"truncated": false,
+"bytes": 87329,
+"files": 9,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": true,
+"lua_top": [
+"thorns.lua"
+]
+},
+{
+"name": "timber",
+"url": "https://github.com/markwheeler/timber",
+"tags": [
+"sampler",
+"midi"
+],
+"description": "sample player engine and scripts",
+"truncated": false,
+"bytes": 450879,
+"files": 6,
+"sc": [
+"lib/Engine_Timber.sc"
+],
+"binaries": [],
+"audio": 1,
+"audio_bytes": 264976,
+"submodules": false,
+"lua_top": [
+"keys.lua",
+"player.lua"
+]
+},
+{
+"name": "timeparty",
+"url": "https://github.com/crimclark/timeparty",
+"tags": [
+"audio_fx",
+"delay",
+"grid",
+"crow"
+],
+"description": "grid based delay sequencer",
+"truncated": false,
+"bytes": 22492,
+"files": 8,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"timeparty.lua"
+]
+},
+{
+"name": "tmi",
+"url": "https://github.com/schollz/tmi",
+"tags": [
+"utility",
+"midi"
+],
+"description": "library for sequencing midi with text",
+"truncated": false,
+"bytes": 50827,
+"files": 15,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"tmi.lua"
+]
+},
+{
+"name": "torii",
+"url": "https://github.com/okyeron/torii",
+"tags": [
+"sequencer",
+"grid",
+"midi"
+],
+"description": "gated audio sequencer",
+"truncated": false,
+"bytes": 18663,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"torii.lua"
+]
+},
+{
+"name": "traffic",
+"url": "https://github.com/ypxk/traffic",
+"tags": [
+"sequencer",
+"grid",
+"midi"
+],
+"description": "edit of @markeats loom for quickly decoupling motifs from their harmonic framework",
+"truncated": false,
+"bytes": 45863,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"traffic.lua"
+]
+},
+{
+"name": "triangles",
+"url": "https://github.com/chrislo/triangles",
+"tags": [
+"synth"
+],
+"description": "4-voice triangle wave drone synth",
+"truncated": false,
+"bytes": 1691993,
+"files": 7,
+"sc": [
+"lib/Engine_Triangles.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"triangles.lua"
+]
+},
+{
+"name": "tuner",
+"url": "https://github.com/markwheeler/tuner",
+"tags": [
+"utility"
+],
+"description": "tune stuff",
+"truncated": false,
+"bytes": 38641,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"tuner.lua"
+]
+},
+{
+"name": "tunnels",
+"url": "https://github.com/speakerdamage/tunnels",
+"tags": [
+"delay",
+"audio_fx"
+],
+"description": "a collection of uncertain delays using norns softcut",
+"truncated": false,
+"bytes": 51114,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"passersby-tnl.lua",
+"tunnels.lua"
+]
+},
+{
+"name": "turntable",
+"url": "https://github.com/adamstaff/turntable",
+"tags": [
+"norns",
+"crow",
+"sampler"
+],
+"description": "a turntable for norns",
+"truncated": false,
+"bytes": 25773,
+"files": 5,
+"sc": [
+"Lib/turntableSC.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"turntable.lua"
+]
+},
+{
+"name": "twine",
+"url": "https://github.com/cfdrake/twine",
+"tags": [
+"granulator"
+],
+"description": "random granulator for two samples",
+"truncated": false,
+"bytes": 6672,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"twine.lua"
+]
+},
+{
+"name": "twins",
+"url": "https://github.com/danielrigler/twins",
+"tags": [
+"granulator",
+"audio_fx"
+],
+"description": "randomized dual granular playground, inspired by twine",
+"truncated": false,
+"bytes": 409397,
+"files": 21,
+"sc": [
+"lib/engine_twins.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"twins.lua"
+]
+},
+{
+"name": "u",
+"url": "https://github.com/northern-information/u",
+"tags": [
+"utility"
+],
+"description": "norns utility scripts",
+"truncated": false,
+"bytes": 60265,
+"files": 10,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"DCE.lua",
+"KEY.lua",
+"REF.lua"
+]
+},
+{
+"name": "ufo",
+"url": "https://github.com/loudnumbers/ufo",
+"tags": [
+"art",
+"crow",
+"midi",
+"drone",
+"generative"
+],
+"description": "ultra-low frequency oscillator powered by the international space station",
+"truncated": false,
+"bytes": 44309,
+"files": 12,
+"sc": [
+"lib/Engine_SupSawEV.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"ufo.lua"
+]
+},
+{
+"name": "uhf",
+"url": "https://github.com/speakerdamage/uhf",
+"tags": [
+"granulator"
+],
+"description": "your tapes transmitted thru late-night static and broken antenna frequencies",
+"truncated": false,
+"bytes": 10912,
+"files": 2,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"uhf.lua"
+]
+},
+{
+"name": "vials",
+"url": "https://github.com/nattog/vials",
+"tags": [
+"sequencer",
+"sampler",
+"grid"
+],
+"description": "4 track performance-oriented sample sequencer",
+"error": "{\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/git/tre"
+},
+{
+"name": "vinker",
+"url": "https://github.com/KodeBeer/Vinker",
+"tags": [
+"feedback",
+"norns",
+"synth"
+],
+"description": "Jaap Vink inspired recursive sound instrument",
+"truncated": false,
+"bytes": 8869675,
+"files": 5,
+"sc": [
+"lib/Engine_Vinker.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"Vinker.lua"
+]
+},
+{
+"name": "waver",
+"url": "https://github.com/ryleelyman/waver",
+"tags": [
+"utility"
+],
+"description": "assemble a song from TAPE",
+"truncated": false,
+"bytes": 10939866,
+"files": 14,
+"sc": [],
+"binaries": [],
+"audio": 4,
+"audio_bytes": 10909064,
+"submodules": false,
+"lua_top": [
+"waver.lua"
+]
+},
+{
+"name": "wobblewobble",
+"url": "https://github.com/schollz/wobblewobble",
+"tags": [
+"utility",
+"crow",
+"midi"
+],
+"description": "slow oscillators for crow",
+"truncated": false,
+"bytes": 36116,
+"files": 6,
+"sc": [
+"lib/Engine_Wobble.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"wobblewobble.lua"
+]
+},
+{
+"name": "wrms",
+"url": "https://github.com/AndrewShike/wrms",
+"tags": [
+"delay",
+"looper"
+],
+"description": "dual asyncronous time-wigglers / echo loopers",
+"truncated": false,
+"bytes": 128599,
+"files": 15,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": true,
+"lua_top": [
+"lite.lua",
+"wrms.lua"
+]
+},
+{
+"name": "xD1",
+"url": "https://github.com/ryleelyman/xD1",
+"tags": [
+"synth",
+"midi"
+],
+"description": "xD1 is an FM synth",
+"truncated": false,
+"bytes": 57380,
+"files": 36,
+"sc": [
+"lib/Engine_xD1.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"xD1.lua"
+]
+},
+{
+"name": "yggdrasil",
+"url": "https://github.com/northern-information/yggdrasil",
+"tags": [
+"sequencer",
+"tracker",
+"midi",
+"keyboard"
+],
+"description": "a norns cyberdeck tracker",
+"truncated": false,
+"bytes": 2148188,
+"files": 113,
+"sc": [
+"engine/Engine_YggdrasilSynth.sc"
+],
+"binaries": [],
+"audio": 18,
+"audio_bytes": 1877246,
+"submodules": false,
+"lua_top": [
+"yggdrasil.lua"
+]
+},
+{
+"name": "zellen",
+"url": "https://github.com/sarweiler/zellen",
+"tags": [
+"sequencer",
+"grid"
+],
+"description": "game of life based sequencer",
+"truncated": false,
+"bytes": 36634,
+"files": 10,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"zellen.lua"
+]
+},
+{
+"name": "initenere",
+"url": "https://github.com/linusschrab/initenere",
+"tags": [
+"sequencer",
+"crow",
+"midi",
+"grid"
+],
+"description": "2-dimensional polyrythmic, random note sequencer.",
+"truncated": false,
+"bytes": 44922,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"initenere.lua"
+]
+},
+{
+"name": "SuperBrain",
+"url": "https://github.com/BeatRossmy/SuperBrain",
+"tags": [
+"sequencer",
+"grid",
+"midi"
+],
+"description": "a five track sequencer with various sequencer engines per track",
+"truncated": false,
+"bytes": 66041,
+"files": 19,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"SuperBrain.lua"
+]
+},
+{
+"name": "bowering",
+"url": "https://github.com/whimsicalraps/bowering",
+"tags": [
+"utility",
+"crow"
+],
+"description": "crow script loader with dynamic UI generation",
+"truncated": false,
+"bytes": 8083,
+"files": 5,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": true,
+"lua_top": [
+"bowering.lua"
+]
+},
+{
+"name": "tviburar",
+"url": "https://github.com/linusschrab/tviburar",
+"tags": [
+"sequencer",
+"crow"
+],
+"description": "2x4 complex step sequencer w. free running lfo's",
+"truncated": false,
+"bytes": 23270,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"tviburar.lua"
+]
+},
+{
+"name": "beacon",
+"url": "https://github.com/tomwaters/beacon",
+"tags": [
+"sampler",
+"keyboard"
+],
+"description": "keyboard based softcut sample mangler",
+"truncated": false,
+"bytes": 42500,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"beacon.lua"
+]
+},
+{
+"name": "orgn",
+"url": "https://github.com/andr-ew/orgn",
+"tags": [
+"audio_fx",
+"synth",
+"grid"
+],
+"description": " 3-operator FM synth + fx for norns ",
+"truncated": false,
+"bytes": 3355360,
+"files": 22,
+"sc": [
+"lib/Engine_Orgn.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": true,
+"lua_top": [
+"orgn.lua"
+]
+},
+{
+"name": "orgnwrms",
+"url": "https://github.com/andr-ew/orgnwrms",
+"tags": [
+"synth",
+"delay",
+"looper",
+"audio_fx",
+"grid"
+],
+"description": "orgn + wrms",
+"truncated": false,
+"bytes": 1408108,
+"files": 6,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": true,
+"lua_top": [
+"orgnwrms.lua"
+]
+},
+{
+"name": "time-rhythm",
+"url": "https://github.com/emanuelep/time-rhythm",
+"tags": [
+"drum",
+"synth"
+],
+"description": "duophonic synthesizer for norns",
+"truncated": false,
+"bytes": 7018,
+"files": 3,
+"sc": [
+"lib/Engine_TimeRhythm.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"time-rhythm.lua"
+]
+},
+{
+"name": "dimension-expander",
+"url": "https://github.com/emanuelep/dimension-expander",
+"tags": [
+"audio_fx"
+],
+"description": "stereo spreader fx for norns",
+"truncated": false,
+"bytes": 7121,
+"files": 3,
+"sc": [
+"lib/Engine_DimExp.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"dimension-expander.lua"
+]
+},
+{
+"name": "zxcvbn",
+"url": "https://github.com/schollz/zxcvbn",
+"tags": [
+"sequencer",
+"tracker",
+"keyboard",
+"midi",
+"crow"
+],
+"description": "a tracker",
+"truncated": false,
+"bytes": 12838292,
+"files": 192,
+"sc": [
+"lib/Engine_Zxcvbn.sc",
+"lib/MxSamplesZ.sc",
+"lib/MxSamplesZInstrument.sc",
+"lib/Ouroboro.sc",
+"lib/ignore/fverb/build/Classes/Fverb.sc"
+],
+"binaries": [
+"lib/cjson.so"
+],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"zxcvbn.lua"
+]
+},
+{
+"name": "oilcan",
+"url": "https://github.com/zjb-s/oilcan",
+"tags": [
+"mod",
+"drum",
+"synth",
+"nb"
+],
+"description": "monophonic digital-style percussion voice",
+"truncated": false,
+"bytes": 17461,
+"files": 6,
+"sc": [
+"lib/oilcan.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": []
+},
+{
+"name": "intervaltrainer",
+"url": "https://github.com/yams7457/intervaltrainer/blob/main/intervaltrainer.lua",
+"tags": [
+"utility",
+"midi"
+],
+"description": "interval trainer",
+"truncated": false,
+"bytes": 1546,
+"files": 1,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"intervaltrainer.lua"
+]
+},
+{
+"name": "eels",
+"url": "https://github.com/andr-ew/eels/releases/download/latest/complete-source-code.zip",
+"tags": [
+"delay",
+"looper",
+"crow",
+"arc"
+],
+"description": "dual delay / comb filter",
+"truncated": false,
+"bytes": 2394930,
+"files": 222,
+"sc": [
+"lib/engine/Engine_Eels.sc",
+"lib/engine/eels.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": true,
+"lua_top": [
+"eels.lua"
+]
+},
+{
+"name": "rpls",
+"url": "https://github.com/andr-ew/rpls/releases/download/latest/complete-source-code.zip",
+"tags": [
+"delay",
+"looper"
+],
+"description": "varispeed multitap echo",
+"truncated": false,
+"bytes": 2534273,
+"files": 179,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": true,
+"lua_top": [
+"rpls.lua"
+]
+},
+{
+"name": "ndls",
+"url": "https://github.com/andr-ew/ndls/releases/download/latest/complete-source-code.zip",
+"tags": [
+"delay",
+"looper",
+"sampler",
+"grid",
+"arc"
+],
+"description": "4-track modeless tape looper, delay, & sampler",
+"truncated": false,
+"bytes": 6155950,
+"files": 36,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": true,
+"lua_top": [
+"ndls.lua"
+]
+},
+{
+"name": "bitebeet",
+"url": "https://github.com/midouest/bitebeet",
+"tags": [
+"synth",
+"keyboard"
+],
+"description": "low-rez live coding",
+"truncated": false,
+"bytes": 49412,
+"files": 8,
+"sc": [
+"lib/Engine_ByteBeat.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"bitebeet.lua"
+]
+},
+{
+"name": "noize",
+"url": "https://github.com/deeg-deeg-deeg/noize",
+"tags": [
+"synth",
+"midi"
+],
+"description": "noize is a little synth to make some noise - simple as that!",
+"truncated": false,
+"bytes": 17135,
+"files": 4,
+"sc": [
+"lib/Engine_Noize.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"noize.lua"
+]
+},
+{
+"name": "noizeop",
+"url": "https://github.com/deeg-deeg-deeg/noizeop",
+"tags": [
+"synth",
+"midi"
+],
+"description": "Four oscillators, six algorithms to mix and mangle.",
+"truncated": false,
+"bytes": 56032,
+"files": 34,
+"sc": [
+"lib/Engine_NoizeOp.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"noizeop.lua"
+]
+},
+{
+"name": "bline",
+"url": "https://github.com/toneburst/bline",
+"tags": [
+"sequencer",
+"generative",
+"synth",
+"midi"
+],
+"description": "Bline is a parametric acid-style bassline explorer.",
+"truncated": false,
+"bytes": 25270713,
+"files": 97,
+"sc": [
+"lib/Engine_Bline_Synth.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"bline.lua"
+]
+},
+{
+"name": "samthree",
+"url": "https://github.com/laderast/samthree",
+"tags": [
+"looper",
+"sampler",
+"happyaccident"
+],
+"description": "3 voice looper based on samsara",
+"truncated": false,
+"bytes": 58386,
+"files": 8,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"samthree.lua"
+]
+},
+{
+"name": "Tidbit",
+"url": "https://github.com/markijzerman/tidbit",
+"tags": [
+"jf",
+"midi",
+"crow",
+"synth",
+"granulator",
+"w"
+],
+"description": "Use Just Friends or a MIDI device as a 'melodic' granular synth.",
+"truncated": false,
+"bytes": 50491,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"tidbit.lua"
+]
+},
+{
+"name": "vcr",
+"url": "https://github.com/justmat/vcr",
+"tags": [
+"crow",
+"grid"
+],
+"description": "collect and recall voltages",
+"truncated": false,
+"bytes": 599576,
+"files": 29,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"vcr.lua"
+]
+},
+{
+"name": "warmreload",
+"url": "https://github.com/schollz/warmreload",
+"tags": [
+"mod"
+],
+"description": "a norns mod to automatically reload a script after saving",
+"truncated": false,
+"bytes": 11149,
+"files": 10,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": []
+},
+{
+"name": "tulpamancer",
+"url": "https://github.com/northern-information/tulpamancer",
+"tags": [
+"generative",
+"sequencer",
+"midi"
+],
+"description": "Every night, the kingdom crumbles. And our MIDI pattern, is conjured anew.",
+"truncated": false,
+"bytes": 103459,
+"files": 9,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"tulpamancer.lua"
+]
+},
+{
+"name": "Eastwind",
+"url": "https://github.com/junklight/eastwind/tree/main",
+"tags": [
+"grid",
+"synth"
+],
+"description": "A Norns instrument of non standard tuning & limitations",
+"truncated": false,
+"bytes": 21663,
+"files": 11,
+"sc": [
+"lib/Engine_eastwind.sc",
+"lib/eastwind.sc",
+"lib/queue.sc",
+"lib/voicealloc.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"eastwind.lua"
+]
+},
+{
+"name": "gridofrings",
+"url": "https://github.com/smonthms/gridofrings",
+"tags": [
+"grid",
+"synth"
+],
+"description": "A Karper-esque take on Duncan Geere's gridofpoints",
+"truncated": false,
+"bytes": 14777,
+"files": 3,
+"sc": [
+"lib/Engine_KarplusRings_gor.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"gridofrings.lua"
+]
+},
+{
+"name": "nameless-nightmare",
+"url": "https://github.com/xO-xN/nameless-nightmare",
+"tags": [
+"granulator",
+"drone",
+"art",
+"happyaccident"
+],
+"description": "A Norns granular synthesizer, inspired by solar system.",
+"truncated": false,
+"bytes": 1485885,
+"files": 9,
+"sc": [
+"lib/Engine_Nameless_Nightmare.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"nameless-nightmare.lua"
+]
+},
+{
+"name": "iiitoii",
+"url": "https://github.com/andr-ew/iiitoii",
+"tags": [
+"jf",
+"crow",
+"arc",
+"grid",
+"mod"
+],
+"description": " a collection of iii community scripts ported to norns + crow ",
+"truncated": false,
+"bytes": 28251,
+"files": 8,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"iiitoii.lua"
+]
+},
+{
+"name": "Hiswing",
+"url": "https://github.com/hanjo-synth/Hiswing",
+"tags": [
+"sequencer",
+"midi",
+"velocity"
+],
+"description": "  a customizable pattern and groove midi generator for Monome Norns ",
+"truncated": false,
+"bytes": 48451,
+"files": 4,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"Hiswing.lua"
+]
+},
+{
+"name": "Mnmpatch",
+"url": "https://github.com/hanjo-synth/Mnmpatch",
+"tags": [
+"midi",
+"randomizer",
+"monomachine",
+"sound design",
+"hardware"
+],
+"description": " a patch randomizer for Elektron Monomachine",
+"truncated": false,
+"bytes": 12867,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"MNMPatch.lua"
+]
+},
+{
+"name": "fixed-filter-banking-crisis",
+"url": "https://github.com/xmacex/fixed-filter-banking-crisis",
+"tags": [
+"audio_fx"
+],
+"description": "a fixed filter bank",
+"truncated": false,
+"bytes": 923053,
+"files": 11,
+"sc": [
+"lib/Engine_FixedFilterBank.sc",
+"lib/Fx_FixedFilterBankingCrisis.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"fixed-filter-banking-crisis.lua"
+]
+},
+{
+"name": "window-crowparator",
+"url": "https://github.com/xmacex/window-crowparator",
+"tags": [
+"crow"
+],
+"description": "Window comparator for crow",
+"truncated": false,
+"bytes": 537098,
+"files": 9,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"window-crowparator.lua"
+]
+},
+{
+"name": "monomaniac",
+"url": "https://github.com/xmacex/monomaniac",
+"tags": [
+"mod",
+"utility"
+],
+"description": "A mod to toggle stereo and mono input",
+"truncated": false,
+"bytes": 55323,
+"files": 6,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": []
+},
+{
+"name": "serialism",
+"url": "https://github.com/xmacex/serialism",
+"tags": [
+"midi"
+],
+"description": "Explore serialism in the spirit of Arnold Sch\u00f6nberg and others",
+"truncated": false,
+"bytes": 1102493,
+"files": 8,
+"sc": [],
+"binaries": [],
+"audio": 1,
+"audio_bytes": 1040605,
+"submodules": false,
+"lua_top": [
+"serialism.lua"
+]
+},
+{
+"name": "4CCFader",
+"url": "https://github.com/hanjo-synth/4CCFader",
+"tags": [
+"midi",
+"controller",
+"utility",
+"performance"
+],
+"description": " a four channel CC MIDI fader controller for Norns",
+"truncated": false,
+"bytes": 11477,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"4CCFader.lua"
+]
+},
+{
+"name": "MDPatch",
+"url": "https://github.com/hanjo-synth/MDPatch",
+"tags": [
+"midi",
+"controller",
+"utility",
+"performance"
+],
+"description": " a powerful and flexible MIDI CC randomizer for the Elektron Machinedrum",
+"truncated": false,
+"bytes": 19162,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"MDPatch.lua"
+]
+},
+{
+"name": "MDScaler",
+"url": "https://github.com/hanjo-synth/MDScaler",
+"tags": [
+"midi",
+"controller",
+"utility",
+"performance"
+],
+"description": " a tonal performance utility for the Elektron Machinedrum",
+"truncated": false,
+"bytes": 29521,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"MDScaler.lua"
+]
+},
+{
+"name": "KoiBoi2",
+"url": "https://github.com/Dillbo/KoiBoi2",
+"tags": [
+"sequencer",
+"midi",
+"generative"
+],
+"description": "A sequencer based on fish in a pond",
+"truncated": false,
+"bytes": 63007,
+"files": 3,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"KoiBoi2.lua"
+]
+},
+{
+"name": "Ygg",
+"url": "https://github.com/spgarbet/Ygg",
+"tags": [
+"drone",
+"midi",
+"generative"
+],
+"description": "A drone engine inspired by the Lyra-8",
+"truncated": false,
+"bytes": 148485,
+"files": 23,
+"sc": [
+"lib/Engine_Ygg.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"Ygg.lua"
+]
+},
+{
+"name": "grurder",
+"url": "https://github.com/icco/grurder",
+"tags": [
+"sequencer",
+"midi",
+"generative",
+"euclidean"
+],
+"description": "generative dual-voice MIDI sequencer with Euclidean rhythms and Turing Machine melodies",
+"truncated": false,
+"bytes": 15322,
+"files": 7,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"grurder.lua"
+]
+},
+{
+"name": "sonde",
+"url": "https://github.com/moapacha/sonde",
+"tags": [
+"drone",
+"generative",
+"engine",
+"grid"
+],
+"description": "orbital sequencer for low-res earth",
+"truncated": false,
+"bytes": 110522,
+"files": 11,
+"sc": [
+"lib/Engine_Sonde.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"sonde.lua"
+]
+},
+{
+"name": "ashsynth",
+"url": "https://github.com/nunosmash/ashsynth",
+"tags": [
+"synth",
+"engine",
+"midi",
+"grid"
+],
+"description": "Norns monophonic synthesizer: dual oscillators, FM, split envelopes, clock-synced delay & reverb",
+"truncated": false,
+"bytes": 1309804,
+"files": 7,
+"sc": [
+"lib/Engine_Ash.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"ashsynth.lua"
+]
+},
+{
+"name": "ingenue",
+"url": "https://github.com/seajaysec/ingenue",
+"tags": [
+"utility"
+],
+"description": "responsive browser ui for norns. runs on the device alongside maiden.",
+"truncated": false,
+"bytes": 8072169,
+"files": 43,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"ingenue.lua"
+]
+},
+{
+"name": "awake-ashsynth",
+"url": "https://github.com/nunosmash/awake-ashsynth",
+"tags": [
+"sequencer",
+"grid",
+"synth",
+"midi"
+],
+"description": "Awake dual sequencer with AshSynth \u2014 TIE legato, glide, grid",
+"truncated": false,
+"bytes": 1890007,
+"files": 8,
+"sc": [],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"awake-ashsynth.lua"
+]
+},
+{
+"name": "duatone",
+"url": "https://github.com/roiyaru-bokujin/Duatone",
+"tags": [
+"synth",
+"utility",
+"engine"
+],
+"description": "two-voice tone generator for oscilloscope and Lissajous visualization",
+"truncated": false,
+"bytes": 191799,
+"files": 7,
+"sc": [
+"lib/Engine_Duatone.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"duatone.lua"
+]
+},
+{
+"name": "terrarium",
+"url": "https://github.com/carlosedp/terrarium",
+"tags": [
+"generative",
+"synth",
+"engine"
+],
+"description": "\ud83c\udf31 A small world of modular instruments for monome norns.",
+"truncated": false,
+"bytes": 8478472,
+"files": 184,
+"sc": [
+"lib/Engine_Terrarium.sc"
+],
+"binaries": [],
+"audio": 0,
+"audio_bytes": 0,
+"submodules": false,
+"lua_top": [
+"terrarium.lua"
+]
+}
+]
