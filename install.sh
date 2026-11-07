@@ -109,7 +109,7 @@ if [ $REPATCH = 1 ]; then install_files; patch_machinista; exit 0; fi
 # ---------------------------------------------------------------------------------------
 step "Installing system packages (asks for your password)"
 # shellcheck disable=SC2086
-sudo apt-get install -y --no-install-recommends $APT_PACKAGES
+sudo apt-get install -y --no-install-recommends --no-upgrade $APT_PACKAGES
 
 step "Copying this project to $S"
 install_files
@@ -210,19 +210,25 @@ for b in json.load(sys.stdin)['bundles']:
   TOKEN=$(api /api/session | python3 -c 'import json,sys;print(json.load(sys.stdin)["token"])')
   if [ -n "$BUNDLE" ]; then
     set -- $BUNDLE
-    [ "$2" = True ] || fail "an older Norns Bridge is loaded on a pad. Remove it from the pad, then run this again."
-    api "/api/lv2/delete?id=$1" -X POST -H "X-Machinista-Token: $TOKEN" > /dev/null
-    sleep 2
   fi
-  rm -f "$S/run/norns-bridge.zip"
-  (cd "$S/bridge" && python3 -m zipfile -c "$S/run/norns-bridge.zip" norns-bridge.lv2/manifest.ttl norns-bridge.lv2/norns-bridge.ttl norns-bridge.lv2/norns_bridge.so)
-  api "/api/lv2/upload?name=norns-bridge.zip" -X POST -H "X-Machinista-Token: $TOKEN" \
-    -H "Content-Type: application/octet-stream" --data-binary @"$S/run/norns-bridge.zip" > /dev/null
-  for _ in $(seq 1 30); do
-    api /api/lv2 | grep -q "$BRIDGE_URI" && break; sleep 1
-  done
-  api /api/lv2 | grep -q "$BRIDGE_URI" || fail "Machinista did not list the plug-in after the upload"
-  note "installed"
+  if [ -n "$BUNDLE" ] && [ "$2" != True ]; then
+    note "A different Norns Bridge build is loaded on a pad, so it was left in place."
+    note "To update it: remove it from the pad, then run ./install.sh again."
+  else
+    if [ -n "$BUNDLE" ]; then
+      api "/api/lv2/delete?id=$1" -X POST -H "X-Machinista-Token: $TOKEN" > /dev/null
+      sleep 2
+    fi
+    rm -f "$S/run/norns-bridge.zip"
+    (cd "$S/bridge" && python3 -m zipfile -c "$S/run/norns-bridge.zip" norns-bridge.lv2/manifest.ttl norns-bridge.lv2/norns-bridge.ttl norns-bridge.lv2/norns_bridge.so)
+    api "/api/lv2/upload?name=norns-bridge.zip" -X POST -H "X-Machinista-Token: $TOKEN" \
+      -H "Content-Type: application/octet-stream" --data-binary @"$S/run/norns-bridge.zip" > /dev/null
+    for _ in $(seq 1 30); do
+      api /api/lv2 | grep -q "$BRIDGE_URI" && break; sleep 1
+    done
+    api /api/lv2 | grep -q "$BRIDGE_URI" || fail "Machinista did not list the plug-in after the upload"
+    note "installed"
+  fi
 fi
 
 # ---------------------------------------------------------------------------------------
