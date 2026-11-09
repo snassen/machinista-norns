@@ -1,5 +1,7 @@
 # machinista-norns
 
+> **Superseded.** This Pi 4 add-on is no longer developed. Its successor, with several norns instances, Norns Instrument / Norns Effect plug-ins, clock and MIDI sync and a NORNS mode on the MK3, is the [`norns-mode` branch of snassen/machinista](https://github.com/snassen/machinista/tree/norns-mode) (see `docs/norns/` there).
+
 Run [norns](https://github.com/monome/norns) inside [Machinista](https://github.com/photogeen/machinista) on a Raspberry Pi 4 or 5, with a Maschine MK3 as its screen, keys and encoders.
 
 > **Unofficial.** This is a community add-on. It is not made or endorsed by the Machinista project, monome or Native Instruments. It changes a few of Machinista's files, so a Machinista update can undo it. After an update, run `./install.sh --repatch` and let it restart Machinista: the changes only take effect after a restart.
